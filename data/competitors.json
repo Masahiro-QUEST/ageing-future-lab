@@ -1,0 +1,1809 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-17",
+  "scenario": {
+    "ja": "比較用の仮条件：相模原市・橋本周辺／平日午前の予約通院／片道5km／院内同行2時間。実際の依頼・見積もりではありません。",
+    "en": "Provisional comparison: Hashimoto area, Sagamihara; booked weekday-morning visit, 5 km each way, 2 hours in-clinic accompaniment. Not an actual request or quote."
+  },
+  "providers": [
+    {
+      "id": "nanairo",
+      "name": {
+        "ja": "介護タクシーなないろ",
+        "en": "Kaigo Taxi Nanairo"
+      },
+      "area": {
+        "ja": "相模原市拠点。出発・到着のどちらかが神奈川県内。単独で公共交通機関を使うことが難しい人が対象。",
+        "en": "Based in Sagamihara; either endpoint must be in Kanagawa. For people who have difficulty using public transport alone."
+      },
+      "booking": {
+        "ja": "日時・行き先・介助を相談／フォームで予約リクエスト → 仮受付 → 身体状況・機材と概算料金を確認 → 事業所の確認連絡で予約確定。希望日の空きは未確認。",
+        "en": "Request by consultation or form → provisional receipt → confirm care needs, equipment and estimate → provider confirmation finalizes booking. Requested-date availability unknown."
+      },
+      "scope": {
+        "ja": "往復送迎と院内移動・待機見守り・診察同席・トイレ介助等を案内。帰り時刻未定でも往復予約可。目途がついたら連絡し配車（約30分待つ場合あり）。",
+        "en": "Round-trip transport, in-clinic mobility, waiting supervision, consultation attendance and toilet assistance. Return time can be unspecified; call when known (dispatch may take about 30 minutes)."
+      },
+      "price": {
+        "ja": "公式概算例：5km先の病院、通常時間帯の往復送迎＋院内同行2時間で16,700円。同行はタクシー併用で最初1時間3,850円、以後30分1,925円。運賃等別、機材・追加介助・駐車等別途。混雑・時間で変動し、個別総額は見積もり。",
+        "en": "Official estimate: hospital 5 km away, normal-hours round trip + 2 hours accompaniment: ¥16,700. With taxi: first hour ¥3,850, then ¥1,925/30 min; fares separate. Equipment, extra assistance and parking extra; traffic and duration vary. Obtain an individual quote."
+      },
+      "check": {
+        "ja": "地域・院内同行は対象。平日午前の空き、個別の介助、適用料金と総額は要問い合わせ。",
+        "en": "Area and in-clinic support covered. Weekday-morning availability, individual care, applicable charges and total: inquire."
+      },
+      "links": [
+        {
+          "label": {
+            "ja": "サービス・料金・予約条件",
+            "en": "Services, fees and booking conditions"
+          },
+          "url": "https://7iro.online/kaigotaxinanairo/"
+        }
+      ],
+      "preference": {
+        "ja": "本人がこの事業者に任せたいかは未確認。希望する介助・同席者を親本人に聞く。",
+        "en": "The parent’s acceptance is unconfirmed. Ask them about desired help and companions."
+      },
+      "coordination": {
+        "ja": "予約時に受診日時、往復区間、身体状況・機材、段差、人数、院内同行と帰り予定を伝える。帰り時刻の目途がついたら配車を連絡する。",
+        "en": "Provide time, round-trip route, care/equipment needs, stairs, passengers, accompaniment and return plan. Contact dispatch when the return time is known."
+      },
+      "priceExample": {
+        "ja": "16,700円の公式概算例：5km先へ往復＋同行2時間。機材・追加介助・駐車等別途。",
+        "en": "Official estimate ¥16,700: 5 km each way + 2-hour accompaniment. Equipment, extra help and parking extra."
+      },
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存の公式案内でサービス提供を確認した範囲。特定日時の引受・個別見積もりの成立は別途確認。",
+          "en": "Service provision described in the recorded official guidance. Individual date availability and accepted quotes require separate checks."
+        },
+        "referenceIds": [],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "odekake",
+      "name": {
+        "ja": "介護タクシー お出かけ日より",
+        "en": "Kaigo Taxi Odekake Biyori"
+      },
+      "area": {
+        "ja": "相模原市向けの送迎を案内。橋本の住所・病院の組み合わせ、身体状況に応じた利用条件は要問い合わせ。",
+        "en": "Advertises transport in Sagamihara. Confirm the Hashimoto pickup/hospital combination and eligibility for the person’s condition."
+      },
+      "booking": {
+        "ja": "電話・公式LINE。当日予約も受付。院内同行の申込期限は公式情報では不明。",
+        "en": "Phone or official LINE; same-day requests accepted. Deadline for in-clinic accompaniment: not stated in official information."
+      },
+      "scope": {
+        "ja": "送迎＋院内付き添い（ライフサポート）。往復利用なら貸出車いす等を院内でも利用可。",
+        "en": "Transport plus in-clinic accompaniment (Life Support). Loan equipment can remain with round-trip users in hospital."
+      },
+      "price": {
+        "ja": "公式料金例：自宅から5kmの病院へ往復送迎＋院内同行2時間で17,800円（往路4,500円＋復路4,500円＋同行8,800円）。同行2,200円／30分。道路状況で2〜3割増の案内。有料道路・駐車等別途。個別総額は要見積もり。",
+        "en": "Official example: hospital 5 km from home, round trip + 2 hours accompaniment: ¥17,800 (¥4,500 each way + ¥8,800 accompaniment). ¥2,200/30 min accompaniment. Traffic may add 20–30%; tolls and parking extra. Individual quote required."
+      },
+      "check": {
+        "ja": "院内同行を案内。平日午前の空き、診察同席・身体介助の範囲と総額は要問い合わせ。",
+        "en": "In-clinic accompaniment advertised. Weekday-morning availability, consultation attendance, personal care scope and total: inquire."
+      },
+      "links": [
+        {
+          "label": {
+            "ja": "地域・送迎",
+            "en": "Area and transport"
+          },
+          "url": "https://odekakebiyorikaigo.com/"
+        },
+        {
+          "label": {
+            "ja": "院内同行・予約",
+            "en": "In-clinic help and booking"
+          },
+          "url": "https://odekakebiyorikaigo.com/flow/"
+        },
+        {
+          "label": {
+            "ja": "料金",
+            "en": "Fees"
+          },
+          "url": "https://odekakebiyorikaigo.com/fee/"
+        }
+      ],
+      "preference": {
+        "ja": "本人がこの事業者に任せたいかは未確認。希望する介助・同席者を親本人に聞く。",
+        "en": "The parent’s acceptance is unconfirmed. Ask them about desired help and companions."
+      },
+      "coordination": {
+        "ja": "電話・公式LINEで予約する。家族側が伝える情報、帰りの連絡方法、病院との役割分担は追加確認が必要。",
+        "en": "Book by telephone or official LINE. Required family information, return contact procedure and hospital roles need checking."
+      },
+      "priceExample": {
+        "ja": "17,800円の公式例：5km先へ往復（各4,500円）＋同行2時間（8,800円）。道路状況で増額、駐車等別途。",
+        "en": "Official example ¥17,800: 5 km each way (¥4,500 × 2) + 2-hour accompaniment (¥8,800). Traffic/parking extra."
+      },
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存の公式案内でサービス提供を確認した範囲。特定日時の引受・個別見積もりの成立は別途確認。",
+          "en": "Service provision described in the recorded official guidance. Individual date availability and accepted quotes require separate checks."
+        },
+        "referenceIds": [],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "crowdcare",
+      "name": {
+        "ja": "クラウドケア",
+        "en": "CrowdCare"
+      },
+      "area": {
+        "ja": "神奈川県（相模原市含む）等を対象とする自費サービス。介護保険適用外。",
+        "en": "Private-pay service covering Kanagawa including Sagamihara and other areas; outside care insurance."
+      },
+      "booking": {
+        "ja": "登録・本人情報入力 → 希望日時・内容・見積もり確認・申込 → ヘルパーのマッチング → 担当決定メール → 期限内支払い。申込のみでは担当確保とはいえず、希望日の成立は未確認。",
+        "en": "Register and enter user details → request time/scope and check estimate → helper matching → assignment email → payment by deadline. Submission alone does not establish assignment or requested-date availability."
+      },
+      "scope": {
+        "ja": "病院・通院付き添い、院内介助を案内。ヘルパーによる運転は不可。タクシーは別途手配し、ヘルパーが同乗する。",
+        "en": "Appointment accompaniment and in-clinic assistance offered. Helpers cannot drive; arrange a taxi separately for the helper to accompany the parent."
+      },
+      "price": {
+        "ja": "スポット税込3,300円／時間（最低1時間）、派遣交通費880円。定期は週1回2,750円／時間、隔週3,080円／時間（最低2時間）。直前依頼20〜60％増、深夜早朝等の加算あり。利用中の移動・同行で生じる交通費は依頼者負担。個別総額は要確認。",
+        "en": "Spot: ¥3,300/hour incl. tax (1-hour minimum), plus ¥880 dispatch travel. Weekly ¥2,750/hour; fortnightly ¥3,080/hour (2-hour minimum). Short-notice +20–60%; other surcharges apply. The requester pays transport costs incurred during service. Confirm the individual total."
+      },
+      "coordination": {
+        "ja": "本人情報・希望日時・内容を登録し、見積もり確認後に申込。担当決定後に支払い・メッセージ打合せ。ヘルパーは運転せず、タクシーは別途手配する。",
+        "en": "Register user details, timing and needs; check the estimate and submit. After assignment, pay and discuss details by message. Helpers do not drive; arrange a taxi separately."
+      },
+      "preference": {
+        "ja": "親本人が任せたいかは未確認。本人の希望と必要な介助を確認する。",
+        "en": "Parent acceptance unknown; confirm their wishes and care needs."
+      },
+      "check": {
+        "ja": "希望日の空き、個別の対応範囲・総額、親本人の納得は未確認。利用前に本人と窓口へ確認する。",
+        "en": "Requested-date availability, individual scope/total and parent acceptance are unconfirmed. Check with the parent and service before use."
+      },
+      "links": [
+        {
+          "label": {
+            "ja": "公式料金",
+            "en": "Official fees"
+          },
+          "url": "https://www.crowdcare.jp/plan/"
+        },
+        {
+          "label": {
+            "ja": "利用の流れ",
+            "en": "Booking flow"
+          },
+          "url": "https://www.crowdcare.jp/howtouse/"
+        },
+        {
+          "label": {
+            "ja": "院内同行",
+            "en": "In-clinic accompaniment"
+          },
+          "url": "https://www.crowdcare.jp/services/hospital-attendant/"
+        },
+        {
+          "label": {
+            "ja": "料金FAQ・移動費の負担",
+            "en": "Fee FAQ and travel costs"
+          },
+          "url": "https://www.crowdcare.jp/faq/plan/"
+        },
+        {
+          "label": {
+            "ja": "移動手段・費用のFAQ",
+            "en": "Transport and cost FAQ"
+          },
+          "url": "https://www.crowdcare.jp/faq/"
+        }
+      ],
+      "priceExample": {
+        "ja": "スポット税込3,300円／時間＋派遣交通費880円。同行中の移動費は依頼者負担。直前等の割増あり。",
+        "en": "Spot ¥3,300/hour incl. tax + ¥880 dispatch travel; requester pays travel during service. Surcharges may apply."
+      },
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存の公式案内でサービス提供を確認した範囲。特定日時の引受・個別見積もりの成立は別途確認。",
+          "en": "Service provision described in the recorded official guidance. Individual date availability and accepted quotes require separate checks."
+        },
+        "referenceIds": [],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "fureai",
+      "name": {
+        "ja": "相模原市社協 ふれあいサービス",
+        "en": "Sagamihara Shakyo Fureai Service"
+      },
+      "area": {
+        "ja": "相模原市内在住で家事援助等が必要な高齢者世帯・障がい者世帯・傷病者のいる世帯等。会員制。",
+        "en": "Membership service for Sagamihara residents needing household help, including older, disabled or ill-person households."
+      },
+      "booking": {
+        "ja": "相談員の訪問相談と協力会員による支援。登録・条件・担い手との調整が必要。希望日の空きや即時手配は未確認。",
+        "en": "Consultant home visit and assistance by cooperating members; registration, eligibility and helper coordination required. Requested-date or immediate availability unconfirmed."
+      },
+      "scope": {
+        "ja": "通院同行を公式に案内。担い手にヘルパー資格は必須でない。車による送迎、院内の身体介助・診察同席の範囲は窓口確認が必要。",
+        "en": "Appointment accompaniment published; cooperating members need no helper qualification. Confirm vehicle transport, personal care and consultation attendance with the office."
+      },
+      "price": {
+        "ja": "年会費1,500円。平日9〜17時は450円／30分、7〜9時・17〜19時および土日祝・年末年始は500円／30分。交通費・材料費等は実費別途。個別総額は未確認。",
+        "en": "Annual membership ¥1,500. Weekdays 9–17: ¥450/30 min; 7–9, 17–19 and weekends/holidays/year-end: ¥500/30 min. Travel/materials extra at actual cost. Individual total unknown."
+      },
+      "coordination": {
+        "ja": "利用会員登録と相談員の訪問相談で必要な支援を伝える。通院の交通手段と必要な介助を窓口に相談する。",
+        "en": "Register as a member and explain needs at a home consultation. Discuss appointment transport and required assistance with the office."
+      },
+      "preference": {
+        "ja": "親本人が任せたいかは未確認。本人の希望と必要な介助を確認する。",
+        "en": "Parent acceptance unknown; confirm their wishes and care needs."
+      },
+      "check": {
+        "ja": "希望日の空き、個別の対応範囲・総額、親本人の納得は未確認。利用前に本人と窓口へ確認する。",
+        "en": "Requested-date availability, individual scope/total and parent acceptance are unconfirmed. Check with the parent and service before use."
+      },
+      "links": [
+        {
+          "label": {
+            "ja": "公式案内・条件・料金",
+            "en": "Official scope, eligibility and fees"
+          },
+          "url": "https://www.sagamiharashishakyo.or.jp/sodan/service/fureai.html"
+        }
+      ],
+      "priceExample": {
+        "ja": "年会費1,500円＋平日9〜17時450円／30分。他時間帯等500円／30分。交通費等実費別途。",
+        "en": "¥1,500 annual membership + ¥450/30 min weekdays 9–17; ¥500/30 min other published times. Travel extra."
+      },
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存の公式案内でサービス提供を確認した範囲。特定日時の引受・個別見積もりの成立は別途確認。",
+          "en": "Service provision described in the recorded official guidance. Individual date availability and accepted quotes require separate checks."
+        },
+        "referenceIds": [],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    }
+  ],
+  "references": {
+    "sunlife": {
+      "label": {
+        "ja": "サン・ライフ相模原：介護サービス情報公表",
+        "en": "Sun-Life Sagamihara: public care-service listing"
+      },
+      "url": "https://www.kaigokensaku.mhlw.go.jp/14/index.php?JigyosyoCd=1472611746-00&PrefCd=14&VersionCd=001&action_kouhyou_detail_2025_001_kani=true",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "公表システムの検索結果で自費サービスの案内と地域を確認。通院の範囲・料金は未確認。",
+        "en": "The public-system search result confirms private-pay services and area; appointment scope and fees are unconfirmed."
+      }
+    },
+    "checklist": {
+      "label": {
+        "ja": "厚労省：親が元気なうちから把握しておくべきこと",
+        "en": "MHLW: checklist for learning about parents before care"
+      },
+      "url": "https://www.mhlw.go.jp/content/000762542.pdf",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "親の状況・地域の相談先を確認、記録するツール。継続確認も案内。",
+        "en": "Tool for checking and recording parental circumstances and local contacts, with periodic review."
+      }
+    },
+    "pasona-training": {
+      "label": {
+        "ja": "パソナライフケア：仕事と介護の両立セミナー",
+        "en": "Pasona Life Care: work and care seminar"
+      },
+      "url": "https://www.pasona-lc.co.jp/family-care/service/02.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "講師、事前準備・介護費用等の内容、ワークを確認。親子対話の進行代行は未確認。",
+        "en": "Confirms instructors, preparation/cost topics and exercises; family-dialogue facilitation is unconfirmed."
+      }
+    },
+    "family-guidance": {
+      "label": {
+        "ja": "厚労省：日ごろから家族と良好な関係を築く",
+        "en": "MHLW: family communication and preparation"
+      },
+      "url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyoukintou/ryouritsu/dl/b02.pdf",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "元気なうちの対話、貯金・年金等の把握、家族協力の助言。支援サービスの利用実績ではない。",
+        "en": "Advice on early conversations, finances and family cooperation; not a service-use outcome."
+      }
+    },
+    "hashimoto": {
+      "label": {
+        "ja": "相模原市：橋本地域包括支援センター等",
+        "en": "Sagamihara: Hashimoto community support center"
+      },
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/fukushi/1026635/korei_shien/1006373.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "担当地域別の無料相談、申請等の支援。全実務の代行を示すものではない。",
+        "en": "Free area-based consultation and application support; does not establish delegation of every task."
+      }
+    },
+    "caremanager": {
+      "label": {
+        "ja": "WAM NET：居宅介護支援",
+        "en": "WAM NET: home-care management"
+      },
+      "url": "https://www.wam.go.jp/content/wamnet/sppub/kaigo/handbook/service/c078-p02-02-Kaigo-41.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "要介護1以上のケアプラン、サービス連絡調整、認定申請代行、利用料なしを案内。",
+        "en": "Care plans, provider coordination and certification application assistance for care level 1+, without a management fee."
+      }
+    },
+    "cm-discharge": {
+      "label": {
+        "ja": "厚労省公表システム：居宅介護支援の医療連携",
+        "en": "MHLW listing guide: care-manager hospital liaison"
+      },
+      "url": "https://www.kaigokensaku.mhlw.go.jp/care_services_guide/care_services_guide_service01.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "退院時の病院との面談、情報取得、ケアプランとサービス利用調整の説明。",
+        "en": "Describes hospital liaison at discharge, information gathering, care planning and service coordination."
+      }
+    },
+    "omohibito-corporate": {
+      "label": {
+        "ja": "想ひ人：介護おまかせコンシェルジュ法人版",
+        "en": "Omohibito: corporate care concierge"
+      },
+      "url": "https://www.omohibito.com/services/corporate",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "相談と認定申請、施設見学・契約立会い、病院同行等の案内。企業の契約条件を要確認。",
+        "en": "Consultation plus certification applications, facility visits/contracts and hospital accompaniment; employer contract terms need checking."
+      }
+    },
+    "omohibito-personal": {
+      "label": {
+        "ja": "想ひ人：おまかせコンシェルジュ個人版",
+        "en": "Omohibito: personal care concierge"
+      },
+      "url": "https://www.omohibito.com/services/personal",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "相談・ケアマネ選定・入院手配同行・訪問診療医選定等と料金。退院前後の全手配保証ではない。",
+        "en": "Consultation, care-manager selection, admission arrangements/accompaniment and visiting-doctor selection with fees; not a guarantee of all discharge arrangements."
+      }
+    },
+    "kyodo": {
+      "label": {
+        "ja": "相模原協同病院：患者総合サポートセンター",
+        "en": "Sagamihara Kyodo Hospital: patient support center"
+      },
+      "url": "https://www.sagamiharahp.com/outpatient/ipsc_2.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "退院支援看護師・医療ソーシャルワーカー等の支援計画、地域連携、退院前会議を確認。",
+        "en": "Confirms discharge planning by nurses/social workers, community liaison and pre-discharge conferences."
+      }
+    },
+    "duskin-discharge": {
+      "label": {
+        "ja": "ダスキン ライフケア：親が退院する",
+        "en": "Duskin Life Care: support after a parent’s discharge"
+      },
+      "url": "https://www.duskin.jp/lifecare/service/case02.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "退院後の食事作り・見守り・通院同行の公式利用例。個別の受入可否や家族の残作業時間は示さない。",
+        "en": "Provider example of meals, supervision and appointments after discharge; no individual availability or remaining family-time measurement."
+      }
+    },
+    "duskin-hospital": {
+      "label": {
+        "ja": "ダスキン ライフケア：病院・通院の付き添い",
+        "en": "Duskin Life Care: hospital and appointment assistance"
+      },
+      "url": "https://www.duskin.jp/lifecare/service/service02.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "入退院準備・同行、退院前清掃・帰宅後家事、相談から契約・開始の流れ。",
+        "en": "Admission/discharge preparation and accompaniment, pre-discharge cleaning and household help, with inquiry-to-contract/start flow."
+      }
+    },
+    "public-cost": {
+      "label": {
+        "ja": "相模原市：高額介護サービス費",
+        "en": "Sagamihara: high-cost care reimbursement"
+      },
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026646/kaigo/1006979/1006985/1006986.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "保険サービスの上限超過分の払戻し、対象外費用、申請と振込時期。",
+        "en": "Reimbursement above insured-care caps, excluded expenses, applications and payment timing."
+      }
+    },
+    "sbi": {
+      "label": {
+        "ja": "SBIいきいき少短：介護保険",
+        "en": "SBI Ikiiki: care insurance"
+      },
+      "url": "https://www.i-sedai.com/care/kaigo/",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "選択した要介護区分による一時金、請求書類提出と支払時期。加入・給付は契約条件に依存。",
+        "en": "Lump sum at the selected care threshold, claim documents and payment timing; acceptance and payment depend on contract terms."
+      }
+    },
+    "sbi-child": {
+      "label": {
+        "ja": "SBI公式FAQ：子どもによる親の契約",
+        "en": "SBI FAQ: a child taking out insurance for a parent"
+      },
+      "url": "https://faq.i-sedai.com/親の介護保険を子どもが契約することはできますか？-6912ab2d5f694612db02e0d8",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "子が契約者となり親を被保険者にできる範囲とWeb・郵送申込。子への給付を保証する説明ではない。",
+        "en": "Confirms parent-as-insured eligibility with a child policyholder and web/post applications; does not guarantee payment to the child."
+      }
+    },
+    "sbi-terms": {
+      "label": {
+        "ja": "SBI：介護保険の約款",
+        "en": "SBI: care-insurance terms"
+      },
+      "url": "https://www.i-sedai.com/pdf/provision/care_kaigo_yakkan_shiori.pdf",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "受取人・支払条件は申込内容と約款を照合する必要がある。",
+        "en": "Recipient and payment conditions require checking the application and policy terms."
+      }
+    },
+    "daycare": {
+      "label": {
+        "ja": "WAM NET：通所介護",
+        "en": "WAM NET: day care"
+      },
+      "url": "https://www.wam.go.jp/content/wamnet/pcpub/kaigo/handbook/service/c078-p02-02-Kaigo-09.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "通所での生活支援・機能訓練等の制度案内。個別施設の時間帯・受入条件とは区別する。",
+        "en": "General service description of daily support/exercises; distinct from individual facilities’ schedules and acceptance."
+      }
+    },
+    "shortstay": {
+      "label": {
+        "ja": "WAM NET：短期入所生活介護",
+        "en": "WAM NET: short stays"
+      },
+      "url": "https://www.wam.go.jp/content/wamnet/pcpub/kaigo/handbook/service/c078-p02-02-Kaigo-12.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "要介護1以上の短期入所と家族負担軽減。食費・滞在費等は別途。",
+        "en": "Short stays for care level 1+ and family relief; meals/accommodation and other expenses are separate."
+      }
+    },
+    "duskin-rest": {
+      "label": {
+        "ja": "ダスキン ライフケア：介護を休みたい",
+        "en": "Duskin Life Care: taking a break from care"
+      },
+      "url": "https://www.duskin.jp/lifecare/service/case06.html",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "見守り・話し相手・家事の利用例。平日5時間×週2回の例は、誰でも同じ時間使える保証ではない。",
+        "en": "Example of supervision, companionship and household help; its two weekday five-hour sessions are not a universal availability guarantee."
+      }
+    },
+    "tsukui-advice": {
+      "label": {
+        "ja": "ツクイ：よりそいコンシェル",
+        "en": "Tsukui: Yorisoi Concier"
+      },
+      "url": "https://www.tsukui.net/support/home-care/own-expense/yorisoi/",
+      "checkedOn": "2026-11-17",
+      "coverage": {
+        "ja": "LINE相談・情報提供・サービス紹介と無料／有料プラン。利用開始までの代行は未確認。",
+        "en": "LINE advice, information/referrals and plan fees; delegation through service start is unconfirmed."
+      }
+    },
+    "productivity-center": {
+      "label": {
+        "en": "Provider productivity support centers",
+        "ja": "介護生産性向上総合相談センター"
+      },
+      "url": "https://www.mhlw.go.jp/kaigoseisansei/pf/soudan/info.html",
+      "checkedOn": null,
+      "verification": "catalog-only",
+      "coverage": {
+        "ja": "既存の背景資料C06に公式窓口一覧のURLが登録されている。原典の確認日は未記録で、個別窓口の範囲・提供状況は未調査。",
+        "en": "Existing catalog C06 records the official directory URL. Original-check date is unrecorded; individual center scope and provision remain unresearched."
+      }
+    }
+  },
+  "options": [
+    {
+      "id": "sunlife",
+      "name": {
+        "ja": "サン・ライフ福祉サービスセンター相模原事業所",
+        "en": "Sun-Life Welfare Service Center Sagamihara"
+      },
+      "booking": {
+        "ja": "公表上は相模原市（旧津久井・藤野・相模湖町を除く）・町田市。自費の申込・確定条件を確認する。",
+        "en": "Listing area: Sagamihara excluding former Tsukui/Fujino/Sagamiko, and Machida. Confirm private-pay booking and acceptance."
+      },
+      "scope": {
+        "ja": "介護保険外の自費対応を案内。通院同行・送迎・院内介助の対応範囲は未確認。",
+        "en": "Private-pay care is advertised; appointment accompaniment, transport and in-clinic help are unconfirmed."
+      },
+      "price": {
+        "ja": "通院の公開料金例は未確認。送迎費、時間料金、最低利用時間を照会する。",
+        "en": "Appointment fee examples unconfirmed; ask about transport, hourly fees and minimum duration."
+      },
+      "coordination": {
+        "ja": "身体状況と希望日時・区間を伝え、対応範囲・送迎の手配担当を照会する。",
+        "en": "Provide condition, time and route; ask what is covered and who arranges transport."
+      },
+      "referenceIds": [
+        "sunlife"
+      ],
+      "status": "candidate",
+      "evidenceIds": [],
+      "provision": {
+        "state": "unconfirmed",
+        "basis": {
+          "ja": "関連サービスの案内はあるが、この課題で比較する対応範囲を公開情報だけでは確認できない。",
+          "en": "Related services are described, but coverage of this task is not established by the recorded public information."
+        },
+        "referenceIds": [
+          "sunlife"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "checklist",
+      "name": {
+        "ja": "厚労省の介護準備チェックリスト",
+        "en": "MHLW preparation checklist"
+      },
+      "booking": {
+        "ja": "親が元気なうちに、親の状況と地域の相談先を確認・記録する。",
+        "en": "Check and record parent circumstances and local contacts before care starts."
+      },
+      "scope": {
+        "ja": "質問のきっかけと記録用紙。第三者による会話進行や後の決定支援は示されていない。",
+        "en": "Prompts and recording sheets; no third-party facilitation or later decision support specified."
+      },
+      "price": {
+        "ja": "公開資料。進行役を派遣するサービスではない。",
+        "en": "Public material, not a facilitator-dispatch service."
+      },
+      "coordination": {
+        "ja": "家族が声を掛け、親の同意を得て記録・更新し、後の選択に照らす。",
+        "en": "Family initiates, records/updates with consent and applies wishes to later choices."
+      },
+      "referenceIds": [
+        "checklist"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "checklist"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "pasona-training",
+      "name": {
+        "ja": "パソナライフケア 仕事と介護の両立セミナー",
+        "en": "Pasona Life Care work/care seminar"
+      },
+      "booking": {
+        "ja": "企業等が目的に応じて研修内容を相談。従業員向けの事前準備等を扱う。",
+        "en": "Employer arranges a program; employee topics include advance preparation."
+      },
+      "scope": {
+        "ja": "介護制度・費用の説明、事例とワークを案内。親子対話への同席は未確認。",
+        "en": "Information, examples and exercises; attendance at parent-child conversations is unconfirmed."
+      },
+      "price": {
+        "ja": "開催条件・料金は見積もり確認。",
+        "en": "Confirm delivery terms and pricing by quote."
+      },
+      "coordination": {
+        "ja": "受講後に家族が親へ話を切り出し、希望を確認する。後の決定への活用効果は未確認。",
+        "en": "Family starts the conversation afterwards and checks wishes; effect on later decisions is unknown."
+      },
+      "referenceIds": [
+        "pasona-training"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "pasona-training"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "family-dialogue",
+      "name": {
+        "ja": "家族だけで話す",
+        "en": "Talk within the family"
+      },
+      "booking": {
+        "ja": "参加者と話す時期を家族で決める。",
+        "en": "Family agrees on timing and participants."
+      },
+      "scope": {
+        "ja": "直接希望を聞き役割を話せるが、意見の調整を担う第三者はいない。",
+        "en": "Can discuss wishes and roles directly, without an outside facilitator."
+      },
+      "price": {
+        "ja": "サービス利用料は設定されないが、移動や調整時間は別。",
+        "en": "No service fee is set; travel and coordination time are separate."
+      },
+      "coordination": {
+        "ja": "声掛け・進行・記録・更新・後の決定時の参照まで家族が担う。",
+        "en": "Family handles invitation, facilitation, records, updates and later use."
+      },
+      "referenceIds": [
+        "family-guidance"
+      ],
+      "status": "family",
+      "evidenceIds": [
+        "works",
+        "duskin"
+      ],
+      "provision": {
+        "state": "unconfirmed",
+        "basis": {
+          "ja": "家族等の個別対応の候補。誰がどこまで担えるか、合意や実施状況は確認していない。",
+          "en": "An individual family alternative; agreed roles and actual coverage have not been established."
+        },
+        "referenceIds": [
+          "family-guidance"
+        ],
+        "evidenceIds": [
+          "works",
+          "duskin"
+        ],
+        "checkedOn": null
+      }
+    },
+    {
+      "id": "hashimoto",
+      "name": {
+        "ja": "橋本地域包括支援センター",
+        "en": "Hashimoto community support center"
+      },
+      "booking": {
+        "ja": "親の居住地区の担当窓口に相談。相談・申請等は無料。",
+        "en": "Contact the center for the parent’s district; consultation/application help is free."
+      },
+      "scope": {
+        "ja": "介護・福祉・健康等の相談、サービス利用や申請、予防ケアプラン等を支援する。",
+        "en": "Consultation, access/application assistance and preventive care planning."
+      },
+      "price": {
+        "ja": "相談無料。紹介先サービスの利用料とは別。",
+        "en": "Free consultation; referred-service fees are separate."
+      },
+      "coordination": {
+        "ja": "困りごとと本人の希望を伝える。紹介後の予約・契約を誰が行うか窓口で確認。",
+        "en": "Explain needs and wishes; establish who handles bookings/contracts after referral."
+      },
+      "referenceIds": [
+        "hashimoto"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "hashimoto"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "caremanager",
+      "name": {
+        "ja": "居宅介護支援のケアマネジャー",
+        "en": "Home-care manager"
+      },
+      "booking": {
+        "ja": "要介護1以上の居宅介護支援。利用する事業所と調整する。",
+        "en": "Home-care management for care level 1+; arrange with a provider."
+      },
+      "scope": {
+        "ja": "ケアプラン作成、事業所との連絡・利用調整、認定申請の代行。紹介のみではない。",
+        "en": "Care plans, provider coordination and certification application assistance, beyond referral alone."
+      },
+      "price": {
+        "ja": "居宅介護支援の利用料なし。実際の介護サービス費は別。",
+        "en": "No management fee; care-service charges are separate."
+      },
+      "coordination": {
+        "ja": "本人・家族の希望や生活状況を伝え、サービス選択・契約等の担当を確認する。",
+        "en": "Share wishes and home circumstances; confirm responsibility for choices and contracts."
+      },
+      "referenceIds": [
+        "caremanager"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "caremanager"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "corporate",
+      "name": {
+        "ja": "想ひ人 介護おまかせコンシェルジュ法人版",
+        "en": "Omohibito corporate care concierge"
+      },
+      "booking": {
+        "ja": "勤務先の導入・契約範囲を確認。LINE・電話・メールの相談窓口。",
+        "en": "Check employer participation/contract scope; LINE, phone and email consultation."
+      },
+      "scope": {
+        "ja": "相談、認定申請、施設見学の段取り・同行、契約立会い、病院同行等を案内。",
+        "en": "Consultation, certification applications, facility visits/contracts and hospital accompaniment."
+      },
+      "price": {
+        "ja": "法人契約の見積もりと実費等を確認する。",
+        "en": "Confirm employer quote and additional actual expenses."
+      },
+      "coordination": {
+        "ja": "相談内容・本人情報と同意を伝え、依頼する実務を決める。すべての予約代行とは推定しない。",
+        "en": "Provide needs, information and consent; agree on tasks. Do not assume all bookings are delegated."
+      },
+      "referenceIds": [
+        "omohibito-corporate"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "omohibito-corporate"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "tsukui-advice",
+      "name": {
+        "ja": "ツクイ よりそいコンシェル",
+        "en": "Tsukui Yorisoi Concier"
+      },
+      "booking": {
+        "ja": "LINE登録・規約同意。無料相談とプレミアム会員を案内。",
+        "en": "LINE registration and consent; free and premium plans."
+      },
+      "scope": {
+        "ja": "AI相談・情報提供、プレミアムでチャット・電話相談とサービス紹介。予約代行は未確認。",
+        "en": "AI advice/information; premium human consultation and referrals. Booking delegation unconfirmed."
+      },
+      "price": {
+        "ja": "無料機能あり。プレミアム月額390円（税込）。紹介先の料金は別途確認。",
+        "en": "Free features; premium ¥390/month incl. tax. Check referred-service fees separately."
+      },
+      "coordination": {
+        "ja": "状況を入力し、紹介先への連絡・契約・利用開始を誰が担うか確認する。",
+        "en": "Enter circumstances and check who handles referral contact, contracts and service start."
+      },
+      "referenceIds": [
+        "tsukui-advice"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "tsukui-advice"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "hospital-discharge",
+      "name": {
+        "ja": "相模原協同病院 患者総合サポートセンター",
+        "en": "Sagamihara Kyodo Hospital patient support center"
+      },
+      "booking": {
+        "ja": "主治医・病棟看護師・退院調整担当へ、退院後の療養希望を伝える。",
+        "en": "Tell the doctor/ward/discharge team the desired post-discharge setting."
+      },
+      "scope": {
+        "ja": "支援計画と地域の医療・介護との調整、必要時の退院前会議。家族の全手配代行ではない。",
+        "en": "Discharge plan, liaison and conferences as needed; not all family arrangements."
+      },
+      "price": {
+        "ja": "この案内から退院支援の個別費用総額は確定できない。病院に確認。",
+        "en": "Individual discharge-support total is not established by this page; ask the hospital."
+      },
+      "coordination": {
+        "ja": "家族が自宅の状況・意向を共有。退院日までに、帰宅移動・受入準備等の担当を合意する。",
+        "en": "Share home conditions/wishes; agree who handles return transport and home readiness by discharge."
+      },
+      "referenceIds": [
+        "kyodo"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "kyodo"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "cm-discharge",
+      "name": {
+        "ja": "ケアマネ：帰宅後のサービス調整",
+        "en": "Care manager: post-discharge care coordination"
+      },
+      "booking": {
+        "ja": "退院予定を早期に共有し、病院とケアマネの情報連携を相談。",
+        "en": "Share the planned discharge date early and arrange hospital liaison."
+      },
+      "scope": {
+        "ja": "病院から情報を得てケアプランを作成し、帰宅後のサービス利用を調整する。",
+        "en": "Obtain hospital information, prepare a care plan and coordinate home services."
+      },
+      "price": {
+        "ja": "居宅介護支援の利用料なし。福祉用具・訪問介護等の利用料は別。",
+        "en": "No home-care management fee; equipment/home-care service charges separate."
+      },
+      "coordination": {
+        "ja": "帰宅後の希望・住環境・家族が担えることを伝え、開始日と契約の担当を確認する。",
+        "en": "Share wishes, home setup and family capacity; agree on start dates and contract responsibilities."
+      },
+      "referenceIds": [
+        "cm-discharge",
+        "caremanager"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "cm-discharge",
+          "caremanager"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "duskin-discharge",
+      "name": {
+        "ja": "ダスキン ライフケア 入退院・帰宅後支援",
+        "en": "Duskin Life Care admission/discharge and home support"
+      },
+      "booking": {
+        "ja": "電話・フォーム相談→訪問相談→プランと見積もり→契約→開始。対応店へ確認。",
+        "en": "Phone/form inquiry → home consultation → plan/quote → contract → start; check local coverage."
+      },
+      "scope": {
+        "ja": "入退院準備・同行、退院前清掃、帰宅後の食事作り・見守り等。病院やケアマネの役割とは別。",
+        "en": "Admission/discharge preparation/accompaniment, cleaning, meals and supervision; distinct from clinical/care planning."
+      },
+      "price": {
+        "ja": "地域・利用時間等で異なる。退院後の公式例：Sエリア平日2時間11,000円（税込、月8時間以上の基本料金）。移動費等を含む見積もりを確認。",
+        "en": "Varies by area/duration. Published post-discharge example: S-area weekday 2 hours ¥11,000 incl. tax at monthly 8+ hour basic rates. Confirm quote and travel extras."
+      },
+      "coordination": {
+        "ja": "希望日時と頼む作業を相談し契約。病院情報共有への本人同意、家の準備・移動の分担を合意する。",
+        "en": "Agree on tasks/timing and contract; establish consent for hospital information and home/transport responsibilities."
+      },
+      "referenceIds": [
+        "duskin-discharge",
+        "duskin-hospital"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "duskin-discharge",
+          "duskin-hospital"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "omohibito-discharge",
+      "name": {
+        "ja": "想ひ人 おまかせコンシェルジュ個人版",
+        "en": "Omohibito personal care concierge"
+      },
+      "booking": {
+        "ja": "初回相談で依頼内容と契約範囲を確認。",
+        "en": "Confirm requested tasks and contract scope at consultation."
+      },
+      "scope": {
+        "ja": "ケアマネ選定支援、入院手配・同行、訪問診療医選定等を案内。退院日からの全手配は追加確認。",
+        "en": "Advertises care-manager selection, admission arrangements/accompaniment and visiting-doctor selection. Full discharge-date arrangements require confirmation."
+      },
+      "price": {
+        "ja": "月額1人目16,500円、スポット相談11,000円／回（税込）。現地出張等は別途。",
+        "en": "First-person monthly concierge ¥16,500; spot consultation ¥11,000 incl. tax. On-site visits etc. extra."
+      },
+      "coordination": {
+        "ja": "本人情報・希望と同意を伝え、退院日までに依頼する実務、医療職との分担を決める。",
+        "en": "Share information, wishes and consent; agree tasks due by discharge and roles with clinicians."
+      },
+      "referenceIds": [
+        "omohibito-personal"
+      ],
+      "status": "candidate",
+      "evidenceIds": [],
+      "provision": {
+        "state": "unconfirmed",
+        "basis": {
+          "ja": "関連サービスの案内はあるが、この課題で比較する対応範囲を公開情報だけでは確認できない。",
+          "en": "Related services are described, but coverage of this task is not established by the recorded public information."
+        },
+        "referenceIds": [
+          "omohibito-personal"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "public-cost",
+      "name": {
+        "ja": "公的負担軽減：相模原市の高額介護サービス費",
+        "en": "Public relief: Sagamihara high-cost care reimbursement"
+      },
+      "booking": {
+        "ja": "介護保険の利用者負担が所得等に応じた上限を超えた場合に申請。",
+        "en": "Apply when insured-care copayments exceed the applicable income-based cap."
+      },
+      "scope": {
+        "ja": "上限超過分を本人単位で払戻し。食費・居住費・限度額超過分等は対象外。",
+        "en": "Reimburses excess eligible copayments per person; meals, housing and over-limit services are excluded."
+      },
+      "price": {
+        "ja": "後払い。市は利用月のおおむね3か月後に申請書を送り、申請受付翌々月初旬に決定通知、通知後2週間以内に振込と案内。",
+        "en": "Reimbursement: application sent about 3 months after use; decision early in the second month after receipt, then payment within 2 weeks."
+      },
+      "coordination": {
+        "ja": "家族等が対象費用を分け、本人確認・申請と口座登録を行う。立替資金と対象外費用が残る。",
+        "en": "Separate eligible expenses, verify identity, apply and register an account. Upfront funds and excluded costs remain."
+      },
+      "referenceIds": [
+        "public-cost"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "public-cost"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "sbi",
+      "name": {
+        "ja": "SBIいきいき少短の介護保険（子が契約する場合も）",
+        "en": "SBI Ikiiki care insurance (including child policyholders)"
+      },
+      "booking": {
+        "ja": "子が親を被保険者にして申込可能。加入審査・保障開始・選択プラン等の条件を確認。",
+        "en": "Child may apply with parent insured; check underwriting, coverage start and selected plan."
+      },
+      "scope": {
+        "ja": "選択した要介護区分の支払条件を満たすと160万円の一時金。契約で定める受取人へ支払うもので、子が契約するだけで子への給付は保証されない。",
+        "en": "A ¥1.6 million lump sum if the selected care trigger is met, paid to the contractual recipient; a child policyholder does not by itself guarantee payment to the child."
+      },
+      "price": {
+        "ja": "保険料は加入条件別。請求書類到着後は、確認が必要な場合等を除き翌日から5営業日以内の支払いを案内。",
+        "en": "Premium depends on application conditions. Normally paid within 5 business days from the day after claim receipt, except when verification etc. is required."
+      },
+      "coordination": {
+        "ja": "健康告知・契約と受取人の確認・保険料支払・給付請求。支払条件外の費用、給付までの支出や給付を超す負担は残る。",
+        "en": "Disclosure, contract/recipient checks, premiums and claim filing remain; expenses outside triggers or exceeding the benefit and interim funds remain."
+      },
+      "referenceIds": [
+        "sbi",
+        "sbi-child",
+        "sbi-terms"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "sbi",
+          "sbi-child",
+          "sbi-terms"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "savings",
+      "name": {
+        "ja": "親の貯蓄・年金／家族での費用分担",
+        "en": "Parent savings/pension and family cost sharing"
+      },
+      "booking": {
+        "ja": "親の資産・収支を本人の同意のもと把握し、誰がいくら出すか話す。",
+        "en": "With consent, establish parental finances and agree contributions."
+      },
+      "scope": {
+        "ja": "公的給付や保険給付で埋まらない費用にも使途を決められる。給付制度ではない。",
+        "en": "Can allocate funds to uncovered costs; this is not a benefit scheme."
+      },
+      "price": {
+        "ja": "使える残高・継続的な収入の範囲。家族からの追加負担は未確認。",
+        "en": "Limited by available funds/income; additional family contributions unknown."
+      },
+      "coordination": {
+        "ja": "収支記録、本人の同意、支払・精算、分担の更新を家族が担う。",
+        "en": "Family manages records, consent, payments, settlement and updated cost sharing."
+      },
+      "referenceIds": [
+        "family-guidance"
+      ],
+      "status": "family",
+      "evidenceIds": [],
+      "provision": {
+        "state": "unconfirmed",
+        "basis": {
+          "ja": "家族等の個別対応の候補。誰がどこまで担えるか、合意や実施状況は確認していない。",
+          "en": "An individual family alternative; agreed roles and actual coverage have not been established."
+        },
+        "referenceIds": [
+          "family-guidance"
+        ],
+        "evidenceIds": [],
+        "checkedOn": null
+      }
+    },
+    {
+      "id": "daycare",
+      "name": {
+        "ja": "通所介護（デイサービス）",
+        "en": "Day care"
+      },
+      "booking": {
+        "ja": "要介護度等とケアプラン、個別施設の曜日・時間帯・送迎・医療対応を照合。",
+        "en": "Check care plan, individual facility hours, transport and medical needs."
+      },
+      "scope": {
+        "ja": "日中に施設で食事・入浴等の生活支援と機能訓練。施設ごとの受入条件は別。",
+        "en": "Daytime daily care and exercises at a facility; acceptance varies."
+      },
+      "price": {
+        "ja": "保険自己負担と食費等。利用時間・地域・加算で異なるため見積もり確認。",
+        "en": "Insured copayments plus meals/extras; obtain a time/area-specific quote."
+      },
+      "coordination": {
+        "ja": "持ち物・服薬等の準備と送迎時の受渡しを確認。急な呼出しや帰宅後の介護を含め、残る時間を記録する。",
+        "en": "Check packing/medicines and handovers. Record remaining time, including unexpected pickups and post-return care."
+      },
+      "referenceIds": [
+        "daycare"
+      ],
+      "status": "documented",
+      "evidenceIds": [
+        "E09"
+      ],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "daycare"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "shortstay",
+      "name": {
+        "ja": "ショートステイ（短期入所生活介護）",
+        "en": "Short stay"
+      },
+      "booking": {
+        "ja": "要介護1以上。空床、泊数、送迎、医療対応を施設・ケアマネと確認。",
+        "en": "Care level 1+; check beds, nights, transport and clinical needs."
+      },
+      "scope": {
+        "ja": "短期間の宿泊と日常生活支援。家族の病気・出張等や負担軽減にも利用する。",
+        "en": "Short accommodation and daily care, including family illness/travel and relief."
+      },
+      "price": {
+        "ja": "保険自己負担に食費・滞在費等が別途。施設等により異なる。",
+        "en": "Copayment plus meals, accommodation and extras; varies by facility."
+      },
+      "coordination": {
+        "ja": "持参品・薬・生活情報の準備、受渡しと帰宅後の対応を分担。宿泊日数をそのまま休息時間とは数えない。",
+        "en": "Prepare belongings, medicines and care information; divide handovers and aftercare. Nights away do not directly measure rest time."
+      },
+      "referenceIds": [
+        "shortstay"
+      ],
+      "status": "documented",
+      "evidenceIds": [
+        "E09"
+      ],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "shortstay"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "duskin-rest",
+      "name": {
+        "ja": "ダスキン ライフケア 自費の見守り・家事",
+        "en": "Duskin Life Care private supervision/household help"
+      },
+      "booking": {
+        "ja": "担当店と必要時間・親の状態を相談し契約。自宅での見守り等。",
+        "en": "Agree duration and parent needs with the local office; home supervision etc."
+      },
+      "scope": {
+        "ja": "見守り・話し相手・掃除・食事作りを案内。公式例は平日5時間を週2回。",
+        "en": "Supervision, companionship, cleaning and meals; provider example uses 5 hours twice weekly."
+      },
+      "price": {
+        "ja": "公式例：Sエリア週55,000円（税込、5時間×2回、月8時間以上の基本料金）。地域・条件等の個別見積もりが必要。",
+        "en": "Example: S-area ¥55,000/week incl. tax, 5 hours × 2 at monthly 8+ hour basic rates; obtain an individual quote."
+      },
+      "coordination": {
+        "ja": "依頼内容・緊急連絡方法・家の準備を相談する。家族の実際の休息時間は別に測る。",
+        "en": "Agree tasks, emergency contact and home setup; measure actual family rest separately."
+      },
+      "referenceIds": [
+        "duskin-rest"
+      ],
+      "status": "documented",
+      "evidenceIds": [],
+      "provision": {
+        "state": "offered",
+        "basis": {
+          "ja": "既存出典の確認時点で提供・利用の案内がある。各行に記載した範囲に限る。",
+          "en": "Provision or access is described at the recorded source-check date, limited to the scope in this row."
+        },
+        "referenceIds": [
+          "duskin-rest"
+        ],
+        "evidenceIds": [],
+        "checkedOn": "2026-11-17"
+      }
+    },
+    {
+      "id": "relatives-rest",
+      "name": {
+        "ja": "親族との交代",
+        "en": "Take turns with relatives"
+      },
+      "booking": {
+        "ja": "親の意向、各人の勤務・移動と引受可能な時間帯を相談。",
+        "en": "Discuss parent wishes, work/travel and available times."
+      },
+      "scope": {
+        "ja": "親族が担える見守り・介助の範囲を個別に合意する。",
+        "en": "Agree the supervision/personal care each relative can provide."
+      },
+      "price": {
+        "ja": "交通費・謝礼・減収等を含めて確認。無料とは限らない。",
+        "en": "Check travel, compensation and lost income; not necessarily free."
+      },
+      "coordination": {
+        "ja": "交代の日程・引継ぎ・緊急連絡を家族で調整し、交代後の残作業も記録する。",
+        "en": "Family coordinates schedules, handovers and emergency contact; record remaining work."
+      },
+      "referenceIds": [],
+      "status": "family",
+      "evidenceIds": [
+        "E09"
+      ],
+      "provision": {
+        "state": "unconfirmed",
+        "basis": {
+          "ja": "家族等の個別対応の候補。誰がどこまで担えるか、合意や実施状況は確認していない。",
+          "en": "An individual family alternative; agreed roles and actual coverage have not been established."
+        },
+        "referenceIds": [],
+        "evidenceIds": [
+          "E09"
+        ],
+        "checkedOn": null
+      }
+    },
+    {
+      "id": "productivity-center",
+      "name": {
+        "en": "Provider productivity support centers",
+        "ja": "介護生産性向上総合相談センター"
+      },
+      "booking": {
+        "ja": "既存資料にある公的相談先。対象地域、相談方法、利用条件を調べる。",
+        "en": "Public advice route recorded in existing material; investigate area, access and eligibility."
+      },
+      "scope": {
+        "ja": "事業所向け相談の候補。課題整理から導入・定着までの支援範囲は原典未調査。",
+        "en": "Candidate provider-facing advice; scope from framing problems through implementation and sustained use is unresearched."
+      },
+      "price": {
+        "ja": "料金・利用条件は未調査。",
+        "en": "Fees and terms are unresearched."
+      },
+      "coordination": {
+        "ja": "事業所内の課題整理、相談後の実行担当・記録負担を誰が担うか調べる。",
+        "en": "Investigate who frames problems and handles execution and documentation after consultation."
+      },
+      "referenceIds": [
+        "productivity-center"
+      ],
+      "evidenceIds": [],
+      "status": "candidate",
+      "provision": {
+        "state": "unresearched",
+        "basis": {
+          "ja": "既存のURL登録のみ。今回新規の外部調査はしていない。",
+          "en": "Existing URL entry only; no new external research performed."
+        },
+        "referenceIds": [
+          "productivity-center"
+        ],
+        "evidenceIds": [],
+        "checkedOn": null
+      }
+    },
+    {
+      "id": "peer-improvement",
+      "name": {
+        "ja": "職員・経営層・仲間による業務改善",
+        "en": "Improvement by staff, management and peers"
+      },
+      "booking": {
+        "ja": "支援者の既存要約で語られた代替手段。個別の参加条件は未確認。",
+        "en": "Alternative described in existing practitioner summaries; participation terms unconfirmed."
+      },
+      "scope": {
+        "ja": "伴走・仲間の支援、技術を使わない業務見直しが報告されている。実施主体や契約範囲の特定は未完了。",
+        "en": "Hands-on/peer support and nontechnical workflow changes are reported; operators and contractual scope are not fully identified."
+      },
+      "price": {
+        "ja": "費用・必要な職員時間は未調査。",
+        "en": "Costs and staff time are unresearched."
+      },
+      "coordination": {
+        "ja": "職員と経営層の合意、実行・継続の担当、家族への影響を調べる。",
+        "en": "Investigate staff/management agreement, sustained execution and family impact."
+      },
+      "referenceIds": [],
+      "evidenceIds": [
+        "E02",
+        "E03",
+        "E06"
+      ],
+      "status": "family",
+      "provision": {
+        "state": "unconfirmed",
+        "basis": {
+          "ja": "既存要約はあるが、独立したサービスの提供状況は確認できない。",
+          "en": "Existing accounts do not establish the provision status of a specific independent service."
+        },
+        "referenceIds": [],
+        "evidenceIds": [
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "checkedOn": null
+      }
+    }
+  ],
+  "comparisons": {
+    "appointments": {
+      "goal": {
+        "ja": "親の予約通院を希望日に任せ、必要な送迎と院内同行を確保したい。",
+        "en": "Delegate the parent’s visit on the requested date with transport and in-clinic assistance."
+      },
+      "optionIds": [
+        "provider:nanairo",
+        "provider:odekake",
+        "alternative:0",
+        "alternative:1",
+        "alternative:2",
+        "alternative:3"
+      ],
+      "columns": [
+        {
+          "ja": "依頼先",
+          "en": "Provider"
+        },
+        {
+          "ja": "予約・利用条件",
+          "en": "Booking and eligibility"
+        },
+        {
+          "ja": "任せられる範囲",
+          "en": "Scope of support"
+        },
+        {
+          "ja": "公開料金と条件",
+          "en": "Published fees and conditions"
+        },
+        {
+          "ja": "家族が行う手続き",
+          "en": "Family procedures"
+        }
+      ],
+      "hypothesis": {
+        "ja": "仮説：同じ依頼情報を整理し、最初の依頼先が不可なら代替候補へ渡すことで、再説明と連絡の負担を減らせるか。",
+        "en": "Hypothesis: reusable request information and handoff to alternatives may reduce repeat explanations and contact work."
+      },
+      "unknown": {
+        "ja": "特定日の引受可否、個別総額、親本人の意向、実際に家族が使った時間は未確認。公式の申込手順・料金例からは推定しない。公開調査では、家族が最終的に希望日に手配できなかった率を直接確認できていない。",
+        "en": "Requested-date availability, individual totals, parental wishes and actual family task time are unconfirmed; do not infer them from published procedures or examples. Public surveys do not directly establish the final failed-arrangement rate."
+      },
+      "supplementaryOptionIds": [
+        "provider:crowdcare",
+        "provider:fureai",
+        "sunlife"
+      ],
+      "axes": [
+        {
+          "id": "timing",
+          "label": {
+            "ja": "希望日時に頼めるか",
+            "en": "Requested-time availability"
+          }
+        },
+        {
+          "id": "support",
+          "label": {
+            "ja": "送迎・院内支援の範囲",
+            "en": "Transport and in-clinic scope"
+          }
+        },
+        {
+          "id": "preference",
+          "label": {
+            "ja": "親本人が任せたいか",
+            "en": "Parent acceptance"
+          }
+        },
+        {
+          "id": "cost",
+          "label": {
+            "ja": "いくらかかるか",
+            "en": "Cost"
+          }
+        },
+        {
+          "id": "coordination",
+          "label": {
+            "ja": "家族に残る調整",
+            "en": "Family coordination"
+          }
+        }
+      ],
+      "remaining": {
+        "ja": "希望日の成立、見積総額、他社を含む再手配の担当、本人の意向と家族の作業時間を個別に確認する。",
+        "en": "Check requested-date success, quoted total, cross-provider rearrangement roles, parental wishes and actual family task time."
+      }
+    },
+    "dialogue": {
+      "goal": {
+        "ja": "元気なうちに親の希望を聞き、後の住まいや介護サービスの決定で参照したい。",
+        "en": "Hear the parent’s wishes early and use them in later housing/care decisions."
+      },
+      "optionIds": [
+        "checklist",
+        "pasona-training",
+        "family-dialogue"
+      ],
+      "columns": [
+        {
+          "ja": "手段・出典",
+          "en": "Option and source"
+        },
+        {
+          "ja": "会話のきっかけ・利用条件",
+          "en": "Conversation trigger and access"
+        },
+        {
+          "ja": "進行・希望の確認・決定への支援",
+          "en": "Facilitation, wishes and decision support"
+        },
+        {
+          "ja": "費用・利用上の条件",
+          "en": "Cost and conditions"
+        },
+        {
+          "ja": "家族が担う進行・記録・活用",
+          "en": "Family facilitation, records and use"
+        }
+      ],
+      "hypothesis": {
+        "ja": "仮説：会話のきっかけだけでなく、本人が確認できる希望の記録と、後の決定時の振り返りを支えると役立つか。",
+        "en": "Hypothesis: a parent-confirmed record and later review may help beyond simply prompting a conversation."
+      },
+      "unknown": {
+        "ja": "親子対話の進行支援の必要性、希望の更新・決定への活用、親本人の納得と家族の時間変化は未確認。",
+        "en": "Need for facilitation, updates/use in decisions, parent acceptance and family time changes remain unknown."
+      },
+      "remaining": {
+        "ja": "親の希望を記録・更新し、後の決定で使う役割が誰に残るか、親子に確認する。",
+        "en": "Ask parent and child who records/updates wishes and uses them in later decisions."
+      }
+    },
+    "access": {
+      "goal": {
+        "ja": "困りごとを相談し、必要な支援の利用開始までつなげたい。",
+        "en": "Move from discussing concerns to actually starting needed support."
+      },
+      "optionIds": [
+        "hashimoto",
+        "caremanager",
+        "corporate",
+        "tsukui-advice"
+      ],
+      "columns": [
+        {
+          "ja": "相談先・出典",
+          "en": "Contact and source"
+        },
+        {
+          "ja": "対象者・相談方法",
+          "en": "Eligibility and access"
+        },
+        {
+          "ja": "情報・紹介・予約・開始の対応範囲",
+          "en": "Information, referral, booking and start"
+        },
+        {
+          "ja": "利用料・契約条件",
+          "en": "Fees and contract terms"
+        },
+        {
+          "ja": "家族の連絡・同意・手続き",
+          "en": "Family contact, consent and procedures"
+        }
+      ],
+      "hypothesis": {
+        "ja": "仮説：情報提供・紹介・予約・契約・利用開始の担当を見える形にすると、紹介後に止まる調整を減らせるか。",
+        "en": "Hypothesis: clear responsibility for information, referrals, bookings, contracts and service start may reduce stalled handoffs."
+      },
+      "unknown": {
+        "ja": "紹介後に誰が連絡・予約するか、契約範囲、実際の利用開始と残った家族作業時間を要確認。",
+        "en": "Check who contacts/books after referral, contract scope, actual service start and remaining family work time."
+      },
+      "remaining": {
+        "ja": "紹介後の連絡・予約・契約と利用開始まで、誰がどこを担ったかを確認する。",
+        "en": "Check responsibility from referral through contact, booking, contract and service start."
+      }
+    },
+    "discharge": {
+      "goal": {
+        "ja": "退院日までに、帰宅の移動と自宅で始める介護・生活支援の担当と開始日を決めたい。",
+        "en": "Agree return transport, home-care responsibilities and start dates before discharge."
+      },
+      "optionIds": [
+        "hospital-discharge",
+        "cm-discharge",
+        "duskin-discharge",
+        "omohibito-discharge"
+      ],
+      "columns": [
+        {
+          "ja": "担当・手段・出典",
+          "en": "Role, option and source"
+        },
+        {
+          "ja": "相談開始・依頼条件",
+          "en": "When/how to engage"
+        },
+        {
+          "ja": "退院日までに調整・提供すること",
+          "en": "Coordination/delivery by discharge"
+        },
+        {
+          "ja": "費用・契約範囲",
+          "en": "Fees and contract scope"
+        },
+        {
+          "ja": "家族の準備と役割合意",
+          "en": "Family preparation and agreed roles"
+        }
+      ],
+      "hypothesis": {
+        "ja": "仮説：退院日から逆算した担当表で、病院の支援計画・ケアマネのサービス調整・民間の生活支援と家族の準備をつなぐと、抜けや再連絡を減らせるか。",
+        "en": "Hypothesis: a discharge-date responsibility plan linking hospital planning, care-manager coordination, private daily support and family preparation may reduce gaps and repeat contact."
+      },
+      "unknown": {
+        "ja": "退院予定日に間に合う受入枠、送迎・福祉用具・訪問介護等の手配担当、契約と総額、本人の意向、家族に残る準備と時間は未確認。提供案内は退院の問題頻度や家族負担軽減の実測ではない。",
+        "en": "Available capacity by discharge, responsibility for transport/equipment/home care, contracts/total, parental wishes and remaining family preparation/time are unknown. Service descriptions do not measure problem frequency or burden reduction."
+      },
+      "remaining": {
+        "ja": "退院日までの病院・ケアマネ・民間・家族の担当と、未手配や残る準備時間を確認する。",
+        "en": "Check hospital, care-manager, private-provider and family responsibilities by discharge and any unarranged support or remaining preparation time."
+      }
+    },
+    "cost": {
+      "goal": {
+        "ja": "必要な介護費用をいつ誰のお金で払うか決め、給付後も残る自己負担を把握したい。",
+        "en": "Decide who pays care costs and when, including costs remaining after benefits."
+      },
+      "optionIds": [
+        "public-cost",
+        "sbi",
+        "savings"
+      ],
+      "columns": [
+        {
+          "ja": "備え・出典",
+          "en": "Funding option and source"
+        },
+        {
+          "ja": "対象・加入／申請条件",
+          "en": "Eligibility and application"
+        },
+        {
+          "ja": "対象費用・給付と受取人",
+          "en": "Covered costs, benefit and recipient"
+        },
+        {
+          "ja": "いつ届くか・保険料等",
+          "en": "Payment timing, premiums and costs"
+        },
+        {
+          "ja": "家族の請求・支払と残る負担",
+          "en": "Family claims, payments and residual burden"
+        }
+      ],
+      "hypothesis": {
+        "ja": "仮説：対象費用・給付時期・受取人・自己負担の表で、公的給付、民間保険、手元資金の役割を分ければ、備えの不足を具体化できるか。",
+        "en": "Hypothesis: separating eligible costs, payment timing, recipient and residual spending may clarify gaps across public benefits, insurance and savings."
+      },
+      "unknown": {
+        "ja": "個人の制度適用・加入可否・受取人・支払額と時期、資産残高、不足額は未確認。商品の給付例だけで家計が足りるとは判断しない。",
+        "en": "Individual eligibility/underwriting, recipient, amount/timing, available assets and shortfall remain unconfirmed. Product examples do not establish household adequacy."
+      },
+      "remaining": {
+        "ja": "給付条件・受取人・入金日と、立替や給付後も家計に残る不足を照合する。",
+        "en": "Compare benefit triggers, recipient/payment date, upfront spending and residual household shortfalls."
+      }
+    },
+    "respite": {
+      "goal": {
+        "ja": "親が受け入れられる支援に任せ、準備や送迎を差し引いて家族が休める時間を確保したい。",
+        "en": "Arrange support acceptable to the parent and secure rest after preparation/transport time."
+      },
+      "optionIds": [
+        "daycare",
+        "shortstay",
+        "duskin-rest",
+        "relatives-rest"
+      ],
+      "columns": [
+        {
+          "ja": "手段・出典",
+          "en": "Option and source"
+        },
+        {
+          "ja": "時間帯・長さ・受入条件",
+          "en": "Timing, duration and acceptance"
+        },
+        {
+          "ja": "任せられる生活支援",
+          "en": "Daily support covered"
+        },
+        {
+          "ja": "費用・別途負担",
+          "en": "Fees and extras"
+        },
+        {
+          "ja": "準備・送迎・引継ぎと残る時間",
+          "en": "Preparation, transport, handover and remaining time"
+        }
+      ],
+      "hypothesis": {
+        "ja": "仮説：利用枠だけでなく準備・送迎・呼出し・引継ぎを含めて調整すると、実際に休める時間を増やせるか。",
+        "en": "Hypothesis: planning preparation, transport, unexpected pickups and handovers alongside care hours may increase actual rest."
+      },
+      "unknown": {
+        "ja": "個別の営業時間・空き・親の医療／介助条件・本人の受入れ、家族に残る作業時間と実際の休息・回復は未測定。",
+        "en": "Individual hours/capacity, clinical/care eligibility, parent acceptance, remaining family work and actual rest/recovery are unmeasured."
+      },
+      "remaining": {
+        "ja": "準備・送迎・引継ぎ・呼出しを含め、家族が実際に休めた時間を確認する。",
+        "en": "Include preparation, transport, handovers and pickups when checking actual rest time."
+      }
+    },
+    "implementation": {
+      "goal": {
+        "ja": "事業所の困りごとを整理し、現場で使い続けられる改善につなげたい。",
+        "en": "Frame provider difficulties and sustain improvements in everyday practice."
+      },
+      "optionIds": [
+        "productivity-center",
+        "peer-improvement"
+      ],
+      "columns": [
+        {
+          "ja": "手段・出典",
+          "en": "Option and source"
+        },
+        {
+          "ja": "相談・参加条件",
+          "en": "Access and participation"
+        },
+        {
+          "ja": "課題整理・導入・定着の支援範囲",
+          "en": "Framing, implementation and sustained-use support"
+        },
+        {
+          "ja": "利用料・必要な時間",
+          "en": "Fees and time needed"
+        },
+        {
+          "ja": "職員・家族に残る作業",
+          "en": "Remaining staff and family work"
+        }
+      ],
+      "hypothesis": {
+        "ja": "新しい機器より課題整理が必要な場合があり得る。",
+        "en": "Problem framing may matter more than a new device in some cases."
+      },
+      "unknown": {
+        "ja": "個別窓口の提供状況・支援範囲・利用条件、改善が定着しない条件、職員と家族の負担変化は未調査・未確認。",
+        "en": "Individual center provision/scope/terms, conditions preventing sustained use and staff/family burden changes remain unresearched or unconfirmed."
+      },
+      "remaining": {
+        "ja": "未調査：既存窓口の提供範囲と、相談後に現場へ残る実行・継続の作業を調べる。",
+        "en": "Unresearched: investigate existing-center scope and execution/sustaining work left to providers."
+      }
+    }
+  },
+  "alternativeProvision": [
+    {
+      "state": "unconfirmed",
+      "basis": {
+        "ja": "親族の引受は個別調整。特定日時の対応・介助・本人の意向は未確認。",
+        "en": "Relatives require individual agreement; timing, care coverage and acceptance are unconfirmed."
+      },
+      "referenceIds": [],
+      "evidenceIds": [],
+      "checkedOn": null
+    },
+    {
+      "state": "unconfirmed",
+      "basis": {
+        "ja": "普段の事業所でも契約と職員の予定次第。事業所を特定した提供状況は未確認。",
+        "en": "Coverage depends on contract and staffing; no specific provider’s availability is established."
+      },
+      "referenceIds": [],
+      "evidenceIds": [],
+      "checkedOn": null
+    },
+    {
+      "state": "unconfirmed",
+      "basis": {
+        "ja": "紹介は依頼先を探す経路で、予約成立・他社を含む手配完了ではない。",
+        "en": "A referral is a route to providers, not a confirmed booking or completed cross-provider arrangement."
+      },
+      "referenceIds": [],
+      "evidenceIds": [],
+      "checkedOn": null
+    },
+    {
+      "state": "unconfirmed",
+      "basis": {
+        "ja": "家族自身の対応候補。勤務調整の可否と負担は未確認。",
+        "en": "A family response, with feasibility of work changes and resulting burden unconfirmed."
+      },
+      "referenceIds": [],
+      "evidenceIds": [],
+      "checkedOn": null
+    }
+  ]
+}

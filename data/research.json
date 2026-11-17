@@ -1,0 +1,1617 @@
+{
+  "mission": {
+    "ja": "介護があっても、自分らしい人生を諦めなくていい社会",
+    "en": "A society where caring for someone does not mean giving up a life of your own."
+  },
+  "origin": {
+    "ja": "幼い頃、叔父と叔母と暮らす中で、介護を日常の一部として経験しました。父も私も一人っ子で、将来自分に親を支える役割が集中するのではないかと感じたことが、高齢者介護を調べる原点です。",
+    "en": "Growing up with my uncle and aunt, I experienced caregiving as part of everyday life. My father and I are both only children. The thought that supporting my parents might one day fall largely on me led me to study elder care."
+  },
+  "flow": {
+    "status": "hypothetical",
+    "steps": [
+      {
+        "ja": "平日の予約通院が勤務と重なる",
+        "en": "A booked weekday visit overlaps with work"
+      },
+      {
+        "ja": "普段の頼み先が引き受けられない",
+        "en": "The usual help cannot take the request"
+      },
+      {
+        "ja": "代わりを探す",
+        "en": "Look for an alternative"
+      }
+    ],
+    "outcomes": [
+      {
+        "ja": "別の人に頼めた",
+        "en": "Someone else could help"
+      },
+      {
+        "ja": "仕事を休んで自分が行った",
+        "en": "Took time off and went personally"
+      },
+      {
+        "ja": "受診日を変えた",
+        "en": "Rescheduled the visit"
+      },
+      {
+        "ja": "その他・未解決",
+        "en": "Other / unresolved"
+      }
+    ]
+  },
+  "alternatives": [
+    {
+      "title": {
+        "ja": "家族・親族への依頼",
+        "en": "Ask family or relatives"
+      },
+      "body": {
+        "ja": "日時・親の希望・院内の介助を任せられるかを確認。頼めた場合も、相手の仕事や移動の調整が残ったかを聞く。",
+        "en": "Check timing, the parent’s acceptance and in-clinic help. Ask whether the relative still had to change work or travel."
+      },
+      "cells": {
+        "timing": {
+          "ja": "親族の勤務・移動予定と希望日時が合うか未確認。",
+          "en": "Availability against relatives’ work and travel is unconfirmed."
+        },
+        "support": {
+          "ja": "送迎手段と院内介助を任せられるか未確認。",
+          "en": "Transport and ability to provide in-clinic help are unconfirmed."
+        },
+        "preference": {
+          "ja": "親族なら任せたいか、本人に確認。",
+          "en": "Ask the parent whether this relative is acceptable."
+        },
+        "cost": {
+          "ja": "交通費・謝礼・休業による負担は未確認。無料とは限らない。",
+          "en": "Travel, compensation and lost work are unconfirmed; do not assume zero cost."
+        },
+        "coordination": {
+          "ja": "依頼・日程調整・病院への伝達を誰が担ったか聞く。",
+          "en": "Ask who requested help, coordinated schedules and informed the hospital."
+        }
+      }
+    },
+    {
+      "title": {
+        "ja": "普段の介護事業所",
+        "en": "The usual care provider"
+      },
+      "body": {
+        "ja": "契約・ケアプラン・対応範囲と職員の予定を確認。引き受けられない理由と、保険外対応の可否を聞く。",
+        "en": "Check the contract, care plan, scope and staffing. Ask why a request is declined and whether private support is possible."
+      },
+      "cells": {
+        "timing": {
+          "ja": "契約・ケアプランと職員の予定を確認。希望日時の対応は未確認。",
+          "en": "Check contract, care plan and staffing; requested-time coverage is unconfirmed."
+        },
+        "support": {
+          "ja": "送迎・院内同行・身体介助の契約上の範囲は未確認。",
+          "en": "Contracted transport, in-clinic support and personal care scope are unconfirmed."
+        },
+        "preference": {
+          "ja": "普段の職員なら任せたいか、本人に確認。",
+          "en": "Ask whether the parent wants help from the usual staff."
+        },
+        "cost": {
+          "ja": "保険内外の適用・追加料金・総額は事業所に確認。",
+          "en": "Ask the provider about coverage, private charges, extras and total."
+        },
+        "coordination": {
+          "ja": "対応不可時の再手配と病院との連絡を誰が担うか聞く。",
+          "en": "Ask who rearranges help and contacts the hospital if coverage fails."
+        }
+      }
+    },
+    {
+      "title": {
+        "ja": "ケアマネ経由の紹介",
+        "en": "Referral through a care manager"
+      },
+      "body": {
+        "ja": "紹介先への連絡・予約・費用確認を誰が担ったかを聞く。紹介と希望日時の手配完了を分ける。",
+        "en": "Ask who contacted, booked and checked prices with the referral. A referral is distinct from a confirmed arrangement."
+      },
+      "cells": {
+        "timing": {
+          "ja": "紹介は予約確定ではない。紹介先の空きは未確認。",
+          "en": "Referral is not a confirmed booking; availability is unconfirmed."
+        },
+        "support": {
+          "ja": "紹介先ごとに送迎と院内支援の範囲を確認。",
+          "en": "Check transport and in-clinic scope with each referred provider."
+        },
+        "preference": {
+          "ja": "紹介された相手を希望するか、本人に確認。",
+          "en": "Ask whether the parent accepts the referred person."
+        },
+        "cost": {
+          "ja": "紹介先の料金・追加費用・総額は未確認。",
+          "en": "Referred provider fees, extras and total are unconfirmed."
+        },
+        "coordination": {
+          "ja": "紹介後の連絡・予約・費用確認を誰が担うか聞く。",
+          "en": "Ask who contacts, books and checks costs after referral."
+        }
+      }
+    },
+    {
+      "title": {
+        "ja": "自分で仕事を調整する",
+        "en": "Adjust one’s own work"
+      },
+      "body": {
+        "ja": "休暇・勤務変更と受診日の変更を別々に記録。既存手段で受診できても、家族に何が残ったかを聞く。",
+        "en": "Record leave, work changes and rescheduling separately. Ask what burden remained even when the visit went ahead."
+      },
+      "cells": {
+        "timing": {
+          "ja": "休暇・勤務変更が可能か未確認。受診日の変更とは分ける。",
+          "en": "Leave or shift changes are unconfirmed; distinguish appointment rescheduling."
+        },
+        "support": {
+          "ja": "自分で送迎・院内介助を担えるか未確認。",
+          "en": "Ability to handle transport and in-clinic help personally is unconfirmed."
+        },
+        "preference": {
+          "ja": "子の同行や受診日変更を望むか、本人に確認。",
+          "en": "Ask whether the parent wants the child present or the visit rescheduled."
+        },
+        "cost": {
+          "ja": "交通・駐車費、減収や休暇消費を聞く。総負担は未確認。",
+          "en": "Ask about travel, parking, lost income and leave used; total burden is unconfirmed."
+        },
+        "coordination": {
+          "ja": "勤務・移動・病院との調整がどれだけ残るか聞く。",
+          "en": "Ask how much work, travel and hospital coordination remains."
+        }
+      }
+    }
+  ],
+  "alternativeComparisonSummary": {
+    "ja": "普段の介護事業所が希望日に対応できず、別のサービスで付き添いを確保した事例がある。そのケースでは、親の状態や希望条件の伝達、担当者との連絡を家族が担った。希望日に最終的に手配できなかった割合と、家族に残った作業時間は未確認。",
+    "en": "One family obtained accompaniment from another service after its usual provider was unavailable on the requested date. The family communicated the parent’s condition and preferences and contacted the assigned helper. The final failure rate for requested dates and the family’s remaining task time are unknown."
+  },
+  "schemaVersion": 2,
+  "status": "exploring",
+  "headline": {
+    "ja": "広く調べた資料から、次に深掘りする問いへ",
+    "en": "From a broad review to questions worth exploring"
+  },
+  "intro": {
+    "ja": "前回は介護業界を広く調べた。今回は、聞き取った話と資料を並べ、次に深掘りする課題を絞る。",
+    "en": "Previously I explored the care sector broadly. Now I compare accounts and sources to narrow the questions for deeper research."
+  },
+  "limitations": {
+    "ja": "課題は未選定。資料の量は重要度ではなく、点数・総合順位は付けません。公開調査、個別事例、聞き取りの既存要約、Masaの解釈、未確認の問いを区別します。",
+    "en": "No problem has been selected. Evidence volume is not importance; there are no scores or overall rankings. Surveys, individual cases, existing interview summaries, Masa’s interpretations and open questions are distinct."
+  },
+  "stages": [
+    {
+      "id": "before",
+      "title": {
+        "ja": "介護前の準備",
+        "en": "Before care"
+      }
+    },
+    {
+      "id": "onset",
+      "title": {
+        "ja": "介護が必要になった直後",
+        "en": "When care begins"
+      }
+    },
+    {
+      "id": "daily",
+      "title": {
+        "ja": "介護が続く日常",
+        "en": "Ongoing care"
+      }
+    }
+  ],
+  "actors": [
+    {
+      "id": "parent",
+      "title": {
+        "ja": "親本人",
+        "en": "Older parent"
+      }
+    },
+    {
+      "id": "family",
+      "title": {
+        "ja": "家族",
+        "en": "Family"
+      }
+    },
+    {
+      "id": "provider",
+      "title": {
+        "ja": "支援者・事業者",
+        "en": "Supporters / providers"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "actor": "parent",
+      "stage": "before",
+      "evidenceIds": [
+        "duskin"
+      ]
+    },
+    {
+      "actor": "family",
+      "stage": "before",
+      "evidenceIds": [
+        "works",
+        "duskin"
+      ]
+    },
+    {
+      "actor": "family",
+      "stage": "onset",
+      "evidenceIds": [
+        "yamanashi",
+        "ask"
+      ]
+    },
+    {
+      "actor": "family",
+      "stage": "daily",
+      "evidenceIds": [
+        "micin",
+        "booked",
+        "union",
+        "E09"
+      ]
+    },
+    {
+      "actor": "provider",
+      "stage": "daily",
+      "evidenceIds": [
+        "kitami",
+        "mri",
+        "hasuda",
+        "E01",
+        "E06"
+      ]
+    }
+  ],
+  "unplaced": [
+    {
+      "evidenceIds": [
+        "move"
+      ],
+      "reason": {
+        "ja": "施設入所の決定場面。介護の開始直後かは不明。",
+        "en": "A residential-care decision; whether this was care onset is unknown."
+      }
+    },
+    {
+      "evidenceIds": [
+        "E04",
+        "E08"
+      ],
+      "reason": {
+        "ja": "相談・連携の報告だが、介護の時期は特定できない。",
+        "en": "Consultation and coordination accounts without a specific care stage."
+      }
+    },
+    {
+      "evidenceIds": [
+        "E05",
+        "E07",
+        "E10",
+        "tobetsu",
+        "facilities"
+      ],
+      "reason": {
+        "ja": "企業・団体、きょうだい・若者、高齢者の就労等の隣接領域。高齢の親の介護にそのまま振り分けない。",
+        "en": "Adjacent contexts: corporate groups, sibling/young carers and older people’s work. Not assigned directly to care of an older parent."
+      }
+    },
+    {
+      "evidenceIds": [
+        "acp",
+        "course"
+      ],
+      "reason": {
+        "ja": "将来のケアの対話・準備講座の資料だが、現在介護中の人などを含み、「介護前」の出来事として一括配置できない。",
+        "en": "Future-care discussions and preparation courses include people already caring; they cannot all be assigned to events before care."
+      }
+    },
+    {
+      "evidenceIds": [
+        "E02",
+        "E03"
+      ],
+      "reason": {
+        "ja": "事業所の課題抽出・改善定着の報告。家族の介護のどの時期に対応するかは特定できない。",
+        "en": "Provider problem-framing and implementation accounts cannot be tied to a particular family care stage."
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "needs",
+      "title": {
+        "ja": "相談の入口と、本人が変えたいことは同じか",
+        "en": "Is the first question the underlying need?"
+      },
+      "compare": {
+        "ja": "山梨の相談支援の要約と、茨城の家族支援の要約を比べる。",
+        "en": "Compare Yamanashi consultation and Ibaraki family-support summaries."
+      },
+      "interpretation": {
+        "ja": "相談内容を言葉にできない場面と、症状の相談から睡眠・自分の時間へ深まる場面がある。情報の提供前に、何を変えたいかを聞く問いが出る。",
+        "en": "Difficulty framing a request and conversations moving from symptoms to sleep or personal time suggest asking what the person wants to change before supplying information."
+      },
+      "unknown": {
+        "ja": "支援者の報告で、家族本人の優先順位・頻度・有料需要は不明。傾聴を必ず行動やAIに変換する理由はない。",
+        "en": "Practitioner accounts do not establish family priorities, frequency or paid demand. Listening need not become a task or an AI product."
+      },
+      "evidenceIds": [
+        "E08",
+        "E09"
+      ]
+    },
+    {
+      "id": "wishes",
+      "title": {
+        "ja": "「話しにくい」と「希望を知らない」を分ける",
+        "en": "Separate difficulty talking from knowing wishes"
+      },
+      "compare": {
+        "ja": "ダスキンの話し合いの難しさ、ワークスの介護前の把握、山梨県の利用開始時の希望把握を比べる。",
+        "en": "Compare Duskin’s perceived difficulty, Works’ prior knowledge and Yamanashi’s knowledge at service onset."
+      },
+      "interpretation": {
+        "ja": "会話のしにくさ・希望を知っていたか・サービスとの不一致への懸念は別の指標。どの時点の何が決定を妨げたかを具体的に追う必要がある。",
+        "en": "Difficulty talking, knowledge of wishes and concerns about service fit measure different things. Trace what obstructed which decision and when."
+      },
+      "unknown": {
+        "ja": "対象・時期・設問が異なり割合を直接比較できない。対話の不足が後の不満を生んだという因果は言えない。",
+        "en": "Populations, periods and questions differ; percentages are not directly comparable and lack of dialogue is not established as a cause of later concerns."
+      },
+      "evidenceIds": [
+        "duskin",
+        "works",
+        "yamanashi",
+        "move"
+      ]
+    },
+    {
+      "id": "cover",
+      "title": {
+        "ja": "支援を使えたことと、負担がなくなったことを分ける",
+        "en": "Separate access to support from relief of burden"
+      },
+      "compare": {
+        "ja": "MICINの仕事への影響、代替先を確保した通院事例、茨城の任せられる例と急な変更、自費利用の費用調査を比べる。",
+        "en": "Compare MICIN’s work impact, a successful alternative for a visit, Ibaraki delegation and sudden changes, and the survey of private-care costs."
+      },
+      "interpretation": {
+        "ja": "最初の依頼先の不成立、最終的な手配、費用による断念、支援後に残る調整は別の問い。支援が十分な例と不足する例を同じ条件で聞く必要がある。",
+        "en": "Initial refusal, final arrangements, unaffordable support and remaining coordination are separate questions. Compare sufficient and insufficient support under similar conditions."
+      },
+      "unknown": {
+        "ja": "異なる資料をつないでも手配不成立率や正味負担の削減は算出できない。通院を優先課題にする根拠でもない。",
+        "en": "These sources cannot yield a failed-arrangement rate or net burden reduction and do not establish priority for appointment care."
+      },
+      "evidenceIds": [
+        "micin",
+        "booked",
+        "E09",
+        "union"
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "id": "impact",
+      "title": {
+        "ja": "社会インパクト",
+        "en": "Social impact"
+      }
+    },
+    {
+      "id": "market",
+      "title": {
+        "ja": "市場規模",
+        "en": "Market size"
+      }
+    },
+    {
+      "id": "gap",
+      "title": {
+        "ja": "既存支援の空白",
+        "en": "Gaps in existing support"
+      }
+    },
+    {
+      "id": "risk",
+      "title": {
+        "ja": "リスク",
+        "en": "Risks"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "dialogue",
+      "title": {
+        "ja": "親の希望を知り、決定に使う",
+        "en": "Learning and using the parent’s wishes"
+      },
+      "evidenceIds": [
+        "works",
+        "duskin",
+        "yamanashi",
+        "move",
+        "acp",
+        "course"
+      ],
+      "cells": {
+        "impact": {
+          "known": {
+            "ja": "希望の把握や事前対話を扱う調査・事例がある。",
+            "en": "Surveys and cases address knowledge of wishes and advance dialogue."
+          },
+          "interpretation": {
+            "ja": "希望を把握しても決定に使えるかは別に追う。",
+            "en": "Knowing wishes and using them in a decision require separate follow-up."
+          },
+          "unknown": {
+            "ja": "その後の決定や生活への効果は不明。",
+            "en": "Effects on later decisions and life are unknown."
+          },
+          "next": {
+            "ja": "親子双方に、直近の住まい・サービス選択を聞く。",
+            "en": "Ask both generations about a recent housing or service decision."
+          },
+          "evidenceIds": [
+            "works",
+            "duskin",
+            "yamanashi",
+            "move",
+            "acp",
+            "course"
+          ]
+        },
+        "market": {
+          "known": {
+            "ja": "規模の実測なし。",
+            "en": "No measured market size."
+          },
+          "interpretation": {
+            "ja": "数える対象の案。需要や支払いとは別。",
+            "en": "Proposed counting unit, distinct from demand or payment."
+          },
+          "unknown": {
+            "ja": "対象人口・頻度・支払者・単価は未確認。",
+            "en": "Population, frequency, payer and price are unconfirmed."
+          },
+          "next": {
+            "ja": "意思決定した家族を分母に、希望が不明・不一致で決定が止まった件数と頻度を数える。",
+            "en": "Among families making decisions, count cases and frequency of decisions blocked by unknown or conflicting wishes."
+          },
+          "evidenceIds": []
+        },
+        "gap": {
+          "known": {
+            "ja": "既存講座を扱う資料もある。",
+            "en": "Material also covers existing courses."
+          },
+          "interpretation": {
+            "ja": "講座の意向回答と実際の対話・決定を区別する。",
+            "en": "Distinguish intentions after a course from actual dialogue and decisions."
+          },
+          "unknown": {
+            "ja": "講座や相談で埋まらない条件は不明。",
+            "en": "Conditions unmet by courses or advice are unknown."
+          },
+          "next": {
+            "ja": "親子それぞれに直近の対話を聞き、チェックリスト・研修の利用、誰が進行・記録し、その希望を後の決定で使ったかを確認する。",
+            "en": "Ask parent and child about a recent conversation, tools/training used, who facilitated/recorded and whether wishes informed later decisions."
+          },
+          "evidenceIds": [
+            "works",
+            "duskin",
+            "yamanashi",
+            "move",
+            "acp",
+            "course"
+          ]
+        },
+        "risk": {
+          "known": {
+            "ja": "安全性・負担の測定なし。",
+            "en": "No safety or burden measurement."
+          },
+          "interpretation": {
+            "ja": "対話の強要や親子の意向不一致に配慮する必要がある。",
+            "en": "Consider pressure to talk and conflicting wishes."
+          },
+          "unknown": {
+            "ja": "発生頻度・影響と提供可能な範囲は未確認。",
+            "en": "Frequency, impact and delivery boundaries are unknown."
+          },
+          "next": {
+            "ja": "同意・役割分担・中止条件を本人と関係者に確認。",
+            "en": "Check consent, roles and stopping rules with those involved."
+          },
+          "evidenceIds": []
+        }
+      },
+      "next": {
+        "ja": "親子への決定場面の聞き取りと講座の追跡資料を確認。",
+        "en": "Interview both generations about decisions and read course follow-ups."
+      },
+      "existingMeans": {
+        "ja": "家族での対話／既存の準備講座・相談",
+        "en": "Family conversations / existing preparation courses and advice"
+      },
+      "overview": {
+        "title": {
+          "ja": "親の希望を決定に生かす",
+          "en": "Use the parent’s wishes in decisions"
+        },
+        "impact": {
+          "ja": "親の希望を知らないまま、住まいや支援を決める家族の場面がある（調査・個別事例）。",
+          "en": "Surveys and a case describe families choosing housing or care without knowing the parent’s wishes."
+        },
+        "scale": {
+          "ja": "2020年調査：介護経験があり介護開始時に正社員だった45〜64歳4,233人の16.2％が、家族・親族の希望を事前に「知っていた／聞いた」。親子の会話実施率や未解決ニーズ率ではない。",
+          "en": "2020 survey: 16.2% of 4,233 people aged 45–64 with care experience, employed full-time when care began, already knew or had asked their relative’s wishes. This is neither a parent–child conversation rate nor an unmet-need rate."
+        },
+        "gap": {
+          "ja": "講座後に実際の対話・決定につながるかは未確認。",
+          "en": "Whether courses lead to conversations and decisions is unknown."
+        },
+        "risk": {
+          "ja": "検討点：対話の強要や親子の意向不一致に配慮する。",
+          "en": "Consideration: avoid forced conversations and respect differing wishes."
+        }
+      },
+      "overviewEvidenceIds": {
+        "impact": [
+          "works",
+          "move"
+        ],
+        "scale": [
+          "works"
+        ]
+      }
+    },
+    {
+      "id": "access",
+      "title": {
+        "ja": "相談内容を言葉にし、支援につながる",
+        "en": "Framing concerns and connecting to help"
+      },
+      "evidenceIds": [
+        "E01",
+        "E04",
+        "E08",
+        "E10"
+      ],
+      "cells": {
+        "impact": {
+          "known": {
+            "ja": "相談・制度範囲・傾聴に関する支援者の要約がある。",
+            "en": "Practitioner summaries cover consultation, boundaries and listening."
+          },
+          "interpretation": {
+            "ja": "情報不足だけでなく、相談の言語化や信頼が関わる可能性。",
+            "en": "Framing concerns and trust may matter alongside information."
+          },
+          "unknown": {
+            "ja": "成人子本人の困りごと・行動は未確認。",
+            "en": "Adult children’s own difficulties and actions are unconfirmed."
+          },
+          "next": {
+            "ja": "相談した人・しなかった人に最近の相談とその後を聞く。",
+            "en": "Ask users and nonusers about a recent concern and subsequent action."
+          },
+          "evidenceIds": [
+            "E01",
+            "E04",
+            "E08",
+            "E10"
+          ]
+        },
+        "market": {
+          "known": {
+            "ja": "規模の実測なし。",
+            "en": "No measured market size."
+          },
+          "interpretation": {
+            "ja": "数える対象の案。需要や支払いとは別。",
+            "en": "Proposed counting unit, distinct from demand or payment."
+          },
+          "unknown": {
+            "ja": "対象人口・頻度・支払者・単価は未確認。",
+            "en": "Population, frequency, payer and price are unconfirmed."
+          },
+          "next": {
+            "ja": "相談を必要とした人を分母に、未相談・相談後の未解決件数、反復頻度を数える。",
+            "en": "Among people needing advice, count nonconsultation, unresolved cases and recurrence."
+          },
+          "evidenceIds": []
+        },
+        "gap": {
+          "known": {
+            "ja": "既存の専門相談や傾聴の実践が報告されている。",
+            "en": "Existing specialist advice and listening practices are reported."
+          },
+          "interpretation": {
+            "ja": "既存窓口で足りる例を含めて比較する。",
+            "en": "Include cases adequately served by existing contacts."
+          },
+          "unknown": {
+            "ja": "追加サービスやAIの必要性は不明。",
+            "en": "Need for an additional service or AI is unknown."
+          },
+          "next": {
+            "ja": "家族・地域包括・ケアマネ・企業相談窓口に、同じ相談について情報提供→紹介→連絡・予約→利用開始を誰が担い、どこで止まったかを聞く。",
+            "en": "Ask family, center, care manager and employer service who handled information → referral → contact/booking → service start and where it stalled."
+          },
+          "evidenceIds": [
+            "E01",
+            "E04",
+            "E08",
+            "E10"
+          ]
+        },
+        "risk": {
+          "known": {
+            "ja": "安全性・負担の測定なし。",
+            "en": "No safety or burden measurement."
+          },
+          "interpretation": {
+            "ja": "私的な経験を話す負担、誤案内、相談を行動へ急がせる危険。",
+            "en": "Burden of disclosure, incorrect advice and pressure to act."
+          },
+          "unknown": {
+            "ja": "発生頻度・影響と提供可能な範囲は未確認。",
+            "en": "Frequency, impact and delivery boundaries are unknown."
+          },
+          "next": {
+            "ja": "同意・役割分担・中止条件を本人と関係者に確認。",
+            "en": "Check consent, roles and stopping rules with those involved."
+          },
+          "evidenceIds": []
+        }
+      },
+      "next": {
+        "ja": "原議事録を取り込み、相談後の行動を本人にも確認。",
+        "en": "Import transcripts and ask families what happened after consultation."
+      },
+      "existingMeans": {
+        "ja": "地域の相談窓口／専門相談・傾聴",
+        "en": "Local consultation contacts / specialist advice and listening"
+      },
+      "overview": {
+        "title": {
+          "ja": "相談を言葉にして支援につなぐ",
+          "en": "Frame concerns and reach support"
+        },
+        "impact": {
+          "ja": "家族が悩みを言葉にできず、相談につながりにくい場面がある（支援者の既存要約）。",
+          "en": "Practitioner summaries describe families struggling to articulate concerns and reach support."
+        },
+        "scale": {
+          "ja": "相談例の要約はあるが、相談を必要とした家族全体を分母にした未相談・未解決の割合は未確認。",
+          "en": "Consultation summaries exist, but no rate of non-consultation or unresolved cases among all families needing advice is established."
+        },
+        "gap": {
+          "ja": "既存窓口への接続後に何が解決したかは未確認。",
+          "en": "Resolution after reaching existing advice services is unknown."
+        },
+        "risk": {
+          "ja": "検討点：話す負担や誤案内、行動を急がせる危険がある。",
+          "en": "Consideration: disclosure burden, incorrect advice and pressure to act."
+        }
+      },
+      "overviewEvidenceIds": {
+        "impact": [
+          "E08",
+          "E10"
+        ],
+        "scale": [
+          "E08"
+        ]
+      }
+    },
+    {
+      "id": "appointments",
+      "title": {
+        "ja": "親の通院を任せたいとき、希望日に手配できるか",
+        "en": "Can a parent’s appointment accompaniment be arranged for the requested date?"
+      },
+      "evidenceIds": [
+        "micin",
+        "kitami",
+        "mri",
+        "booked",
+        "hasuda"
+      ],
+      "cells": {
+        "impact": {
+          "known": {
+            "ja": "仕事への影響と、支援側の調整・代替利用の資料がある。",
+            "en": "Sources address work impact, provider coordination and alternatives."
+          },
+          "interpretation": {
+            "ja": "勤務への影響と最終手配の成否を分けて追う。",
+            "en": "Trace work impact separately from final arrangement success."
+          },
+          "unknown": {
+            "ja": "予約・急な受診別の不成立率は不明。",
+            "en": "Failure rates by booked versus urgent visit are unknown."
+          },
+          "next": {
+            "ja": "予約済みの通院と急な受診を分け、家族の直近1件について、最初に誰に頼んだか → 最終的に誰が同行したか → 家族が何を調整したかを聞く。",
+            "en": "Separate booked appointments from urgent visits. For the family’s most recent case, ask: whom did you ask first → who ultimately accompanied the parent → what did the family coordinate?"
+          },
+          "evidenceIds": [
+            "micin",
+            "kitami",
+            "mri",
+            "booked",
+            "hasuda"
+          ]
+        },
+        "market": {
+          "known": {
+            "ja": "市場規模・手配不成立率・家族に残る作業時間の実測値なし。公式料金例は競合・代替手段の比較表に掲載。",
+            "en": "No measured market size, final failed-arrangement rate or remaining family task time. Published fee examples appear in the provider comparison table."
+          },
+          "interpretation": {
+            "ja": "数える対象の案。需要や支払いとは別。",
+            "en": "Proposed counting unit, distinct from demand or payment."
+          },
+          "unknown": {
+            "ja": "対象人口・利用頻度・支払者・実際の支払額は未確認。公開料金例だけでは市場規模を算出できない。",
+            "en": "Population, usage frequency, payer and actual spending are unconfirmed. Published examples alone cannot determine market size."
+          },
+          "next": {
+            "ja": "付き添いを任せたかった通院を分母に、未手配件数と頻度・残る作業時間を数える。",
+            "en": "Among visits where delegation was wanted, count unarranged cases, frequency and remaining task time."
+          },
+          "evidenceIds": []
+        },
+        "gap": {
+          "known": {
+            "ja": "普段の介護事業所が希望日に対応できず、別のサービスで付き添いを確保した事例がある。そのケースでは、親の状態や希望条件の伝達、担当者との連絡を家族が担った。希望日に最終的に手配できなかった割合と、家族に残った作業時間は未確認。",
+            "en": "One family obtained accompaniment from another service after its usual provider was unavailable on the requested date. The family communicated the parent’s condition and preferences and contacted the assigned helper. The final failure rate for requested dates and the family’s remaining task time are unknown."
+          },
+          "interpretation": {
+            "ja": "最初の依頼先が不可でも地域全体の不足とは限らない。",
+            "en": "An initial refusal need not imply a regional shortage."
+          },
+          "unknown": {
+            "ja": "希望日の空き・個別総額・親本人の納得は個別確認が必要。公開調査から、家族が最終的に希望日に手配できなかった率を直接確認できていない。家族に残る作業時間も未測定。",
+            "en": "Availability, individual totals and parent acceptance require individual checks. Public surveys do not directly establish families’ final failed-arrangement rate for requested dates. Remaining family task time is unmeasured."
+          },
+          "next": {
+            "ja": "同じ1件で、希望日時・依頼順・断られた理由・代替先・最終成否を確認。親の状態や希望の伝達、担当者・病院との連絡、往復移動、費用確認に誰が何分使ったかを聞く。同条件で既存手段を照合する。",
+            "en": "For that same case, record requested time, contact sequence, refusal reasons, alternatives and final outcome. Ask who spent how many minutes communicating needs and preferences, contacting the helper and hospital, arranging return travel and checking costs. Compare existing options under identical conditions."
+          },
+          "evidenceIds": [
+            "micin",
+            "kitami",
+            "mri",
+            "booked",
+            "hasuda"
+          ]
+        },
+        "risk": {
+          "known": {
+            "ja": "安全性・負担の測定なし。",
+            "en": "No safety or burden measurement."
+          },
+          "interpretation": {
+            "ja": "送迎・身体介助・医療判断の境界、個人情報の受け渡し。",
+            "en": "Boundaries of transport, personal care, medical decisions and information sharing."
+          },
+          "unknown": {
+            "ja": "発生頻度・影響と提供可能な範囲は未確認。",
+            "en": "Frequency, impact and delivery boundaries are unknown."
+          },
+          "next": {
+            "ja": "同意・役割分担・中止条件を本人と関係者に確認。",
+            "en": "Check consent, roles and stopping rules with those involved."
+          },
+          "evidenceIds": []
+        }
+      },
+      "next": {
+        "ja": "詳細資料で通院の想定例・競合比較を見る。選定は保留。",
+        "en": "Inspect the appointment scenario and provider comparison; selection remains open."
+      },
+      "overview": {
+        "title": {
+          "ja": "親の通院を希望日に任せる",
+          "en": "Delegate a parent’s appointment on the requested date"
+        },
+        "impact": {
+          "ja": "親などを介護する有職者が、送迎・付き添いで仕事への負担・影響を感じたという調査がある。",
+          "en": "A survey reports work burden or effects among employed people transporting or accompanying an older relative."
+        },
+        "scale": {
+          "ja": "2024年調査：親などを介護する有職者のうち、送迎・付き添いをした300人中238人（79.3％）が仕事への負担・影響を回答。希望日に最終手配できなかった率は測っていない。",
+          "en": "2024 survey: 238 of 300 employed caregivers who provided transport/accompaniment (79.3%) reported work burden or effects. It did not measure the final failed-arrangement rate for requested dates."
+        },
+        "gap": {
+          "ja": "代替先を確保した事例でも、条件の伝達と連絡は家族が担った。",
+          "en": "In one successful alternative arrangement, family still communicated needs and coordinated contact."
+        },
+        "risk": {
+          "ja": "検討点：診察内容の共有について、親本人の同意をどう取るか。",
+          "en": "Consideration: how to obtain the parent’s consent to share consultation details."
+        }
+      },
+      "overviewEvidenceIds": {
+        "impact": [
+          "micin"
+        ],
+        "scale": [
+          "micin"
+        ]
+      }
+    },
+    {
+      "id": "cost",
+      "title": {
+        "ja": "利用可能な支援を費用で断念する",
+        "en": "Forgoing available support because of cost"
+      },
+      "evidenceIds": [
+        "union",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "cells": {
+        "impact": {
+          "known": {
+            "ja": "自費利用の費用障壁を扱う調査と専門職の費用言及がある。",
+            "en": "A survey addresses private-care cost barriers; practitioners mention costs."
+          },
+          "interpretation": {
+            "ja": "供給・希望・費用を分けて確認する必要がある。",
+            "en": "Separate availability, acceptance and affordability."
+          },
+          "unknown": {
+            "ja": "家計の不足額や現金で解決する範囲は不明。",
+            "en": "Household shortfalls and what cash would solve are unknown."
+          },
+          "next": {
+            "ja": "家族に実支出・見送った支援・収入変化を聞く。",
+            "en": "Ask families about spending, forgone support and income changes."
+          },
+          "evidenceIds": [
+            "union",
+            "E04",
+            "E05",
+            "E06"
+          ]
+        },
+        "market": {
+          "known": {
+            "ja": "規模の実測なし。",
+            "en": "No measured market size."
+          },
+          "interpretation": {
+            "ja": "数える対象の案。需要や支払いとは別。",
+            "en": "Proposed counting unit, distinct from demand or payment."
+          },
+          "unknown": {
+            "ja": "対象人口・頻度・支払者・単価は未確認。",
+            "en": "Population, frequency, payer and price are unconfirmed."
+          },
+          "next": {
+            "ja": "利用可能で本人も希望した支援を分母に、費用による断念件数・不足額・頻度を数える。",
+            "en": "Among available and acceptable support options, count cost-driven refusals, shortfalls and frequency."
+          },
+          "evidenceIds": []
+        },
+        "gap": {
+          "known": {
+            "ja": "既存HTMLには公的負担・保険商品・自費支援の整理がある。",
+            "en": "The dashboard catalogs public payments, insurance and private services."
+          },
+          "interpretation": {
+            "ja": "商品があることは家計の不足を埋める証明ではない。",
+            "en": "Product availability does not establish household adequacy."
+          },
+          "unknown": {
+            "ja": "給付後の不足、保険の加入可能性・支払者は不明。",
+            "en": "Post-benefit shortfalls, insurability and payer are unknown."
+          },
+          "next": {
+            "ja": "家族に制度申請・保険証券・家計記録を本人同意のもと照合してもらい、対象費用、受取人、入金日、立替と給付後の不足を確認する。",
+            "en": "With consent, compare benefit applications, policies and household records: eligible costs, recipient, payment date, upfront funds and residual shortfalls."
+          },
+          "evidenceIds": [
+            "union",
+            "E04",
+            "E05",
+            "E06"
+          ]
+        },
+        "risk": {
+          "known": {
+            "ja": "安全性・負担の測定なし。",
+            "en": "No safety or burden measurement."
+          },
+          "interpretation": {
+            "ja": "家計情報への立ち入り、金融商品の誤解、払えない人への調査負担。",
+            "en": "Intrusion into finances, misunderstanding products and burden on people unable to pay."
+          },
+          "unknown": {
+            "ja": "発生頻度・影響と提供可能な範囲は未確認。",
+            "en": "Frequency, impact and delivery boundaries are unknown."
+          },
+          "next": {
+            "ja": "同意・役割分担・中止条件を本人と関係者に確認。",
+            "en": "Check consent, roles and stopping rules with those involved."
+          },
+          "evidenceIds": []
+        }
+      },
+      "next": {
+        "ja": "保険を解決策に決めず、利用断念の具体例を確認。",
+        "en": "Examine actual forgone support before choosing insurance as a solution."
+      },
+      "existingMeans": {
+        "ja": "既存の給付・公的負担／保険商品／自費支援",
+        "en": "Existing benefits and public payments / insurance / private support"
+      },
+      "overview": {
+        "title": {
+          "ja": "費用で支援を断念する",
+          "en": "Forgo support because of cost"
+        },
+        "impact": {
+          "ja": "家族が自費の通院介助を使う際の費用障壁が報告された（ケアマネの調査・支援者の要約）。",
+          "en": "A care-manager survey and practitioner summaries report cost barriers to families using private appointment assistance."
+        },
+        "scale": {
+          "ja": "2024年調査：保険で対応できない通院介助を担ったケアマネ453人の37.3％が、金銭的余裕のなさを理由に選択（複数回答）。家族全体の断念率や保険への需要ではない。",
+          "en": "2024 survey: 37.3% of 453 care managers who provided appointment help outside public insurance selected lack of funds as a reason (multiple responses). This is not the rate of all families forgoing care or demand for insurance."
+        },
+        "gap": {
+          "ja": "給付・保険等を使った後も家計に残る不足額は未確認。",
+          "en": "Household shortfalls after benefits or insurance are unknown."
+        },
+        "risk": {
+          "ja": "検討点：家計情報の扱いと金融商品の誤解に配慮する。",
+          "en": "Consideration: financial privacy and misunderstanding of insurance products."
+        }
+      },
+      "overviewEvidenceIds": {
+        "impact": [
+          "union",
+          "E04"
+        ],
+        "scale": [
+          "union"
+        ]
+      }
+    },
+    {
+      "id": "respite",
+      "title": {
+        "ja": "任せられる時間と、自分の休息",
+        "en": "Delegation and personal recovery"
+      },
+      "evidenceIds": [
+        "E05",
+        "E07",
+        "E09"
+      ],
+      "cells": {
+        "impact": {
+          "known": {
+            "ja": "安心して任せる例、急な変更、隣接領域の休息の報告がある。",
+            "en": "Accounts cover confident delegation, sudden changes and adjacent recovery settings."
+          },
+          "interpretation": {
+            "ja": "空いた時間と休息・回復は別の結果として追う。",
+            "en": "Treat available time and recovery as separate outcomes."
+          },
+          "unknown": {
+            "ja": "高齢の親を支える家族の回復効果は未測定。",
+            "en": "Recovery among families caring for older parents is unmeasured."
+          },
+          "next": {
+            "ja": "任せられる家族・任せにくい家族に時間の使い方を聞く。",
+            "en": "Ask families with and without trusted cover how time is used."
+          },
+          "evidenceIds": [
+            "E05",
+            "E07",
+            "E09"
+          ]
+        },
+        "market": {
+          "known": {
+            "ja": "規模の実測なし。",
+            "en": "No measured market size."
+          },
+          "interpretation": {
+            "ja": "数える対象の案。需要や支払いとは別。",
+            "en": "Proposed counting unit, distinct from demand or payment."
+          },
+          "unknown": {
+            "ja": "対象人口・頻度・支払者・単価は未確認。",
+            "en": "Population, frequency, payer and price are unconfirmed."
+          },
+          "next": {
+            "ja": "休みたい場面を分母に、代替確保・実際に休めた件数と頻度を数える。",
+            "en": "Among desired breaks, count cover secured, actual breaks and frequency."
+          },
+          "evidenceIds": []
+        },
+        "gap": {
+          "known": {
+            "ja": "通所・短期入所で任せられる例も報告されている。",
+            "en": "Day and short-stay services reportedly enable delegation in some cases."
+          },
+          "interpretation": {
+            "ja": "既存支援が十分な条件を先に確かめる。",
+            "en": "Establish conditions where existing support suffices."
+          },
+          "unknown": {
+            "ja": "自然体験への需要・長期効果・移動の負担は不明。",
+            "en": "Demand for nature activities, lasting effects and travel burden are unknown."
+          },
+          "next": {
+            "ja": "親本人・家族・施設等に直近1回を聞き、利用枠、準備、送迎・受渡し、呼出し、引継ぎ、利用後の対応と実際に休めた時間を分けて記録する。",
+            "en": "Ask parent, family and provider about one recent use: care slot, preparation, transport/handovers, unexpected pickups, aftercare and actual rest time separately."
+          },
+          "evidenceIds": [
+            "E05",
+            "E07",
+            "E09"
+          ]
+        },
+        "risk": {
+          "known": {
+            "ja": "安全性・負担の測定なし。",
+            "en": "No safety or burden measurement."
+          },
+          "interpretation": {
+            "ja": "罪悪感や休み方の押し付け、移動・代替介護の追加負担。",
+            "en": "Guilt, imposed ideas of rest and added travel or replacement-care burden."
+          },
+          "unknown": {
+            "ja": "発生頻度・影響と提供可能な範囲は未確認。",
+            "en": "Frequency, impact and delivery boundaries are unknown."
+          },
+          "next": {
+            "ja": "同意・役割分担・中止条件を本人と関係者に確認。",
+            "en": "Check consent, roles and stopping rules with those involved."
+          },
+          "evidenceIds": []
+        }
+      },
+      "next": {
+        "ja": "自然体験を前提にせず、本人が望む休息を聞く。",
+        "en": "Ask about desired rest without assuming a nature experience."
+      },
+      "existingMeans": {
+        "ja": "通所／短期入所／家族による代替介護",
+        "en": "Day care / short stays / replacement care by family"
+      },
+      "overview": {
+        "title": {
+          "ja": "任せた時間を休息につなげる",
+          "en": "Turn delegated time into rest"
+        },
+        "impact": {
+          "ja": "介護する家族が任せられる例と、急な迎え・利用変更で予定を調整する負担が語られた（支援者の要約）。",
+          "en": "Practitioner summaries describe both family delegation and disruption from sudden pickups or service changes."
+        },
+        "scale": {
+          "ja": "要約資料が中心。休みたい場面を分母にした、実際に休めた割合・時間や、高齢の親を支える家族の回復効果は未測定。",
+          "en": "Evidence is mainly summaries. The proportion of desired breaks that became actual rest, rest duration and recovery for families caring for older parents are unmeasured."
+        },
+        "gap": {
+          "ja": "既存支援で空いた時間が回復につながったかは未測定。",
+          "en": "Recovery from time freed by existing support is unmeasured."
+        },
+        "risk": {
+          "ja": "検討点：休み方の押し付けや代替介護の追加負担を避ける。",
+          "en": "Consideration: avoid imposed ways of resting and added replacement-care burdens."
+        }
+      },
+      "overviewEvidenceIds": {
+        "impact": [
+          "E09"
+        ],
+        "scale": [
+          "E05",
+          "E09"
+        ]
+      }
+    },
+    {
+      "id": "implementation",
+      "title": {
+        "ja": "事業所の改善を続ける",
+        "en": "Sustaining provider improvement"
+      },
+      "evidenceIds": [
+        "E02",
+        "E03",
+        "E06",
+        "facilities"
+      ],
+      "cells": {
+        "impact": {
+          "known": {
+            "ja": "導入後の未使用、課題抽出、操作障壁の要約がある。",
+            "en": "Summaries describe unused technology, problem definition and operational barriers."
+          },
+          "interpretation": {
+            "ja": "導入と継続運用、家族への効果は別の段階。",
+            "en": "Purchase, sustained use and family benefits are separate stages."
+          },
+          "unknown": {
+            "ja": "家族の負担軽減への経路・効果は不明。",
+            "en": "Pathways and effects on family burden are unknown."
+          },
+          "next": {
+            "ja": "利用・非利用事業所と家族へ改善前後の実務を聞く。",
+            "en": "Ask adopting and nonadopting providers and families about practice before and after changes."
+          },
+          "evidenceIds": [
+            "E02",
+            "E03",
+            "E06",
+            "facilities"
+          ]
+        },
+        "market": {
+          "known": {
+            "ja": "規模の実測なし。",
+            "en": "No measured market size."
+          },
+          "interpretation": {
+            "ja": "数える対象の案。需要や支払いとは別。",
+            "en": "Proposed counting unit, distinct from demand or payment."
+          },
+          "unknown": {
+            "ja": "対象人口・頻度・支払者・単価は未確認。",
+            "en": "Population, frequency, payer and price are unconfirmed."
+          },
+          "next": {
+            "ja": "支援対象事業所を分母に、改善が定着しない件数・費用・継続支援への支払いを調べる。",
+            "en": "Among eligible providers, measure unsustained changes, cost and payment for continued support."
+          },
+          "evidenceIds": []
+        },
+        "gap": {
+          "known": {
+            "ja": "伴走・仲間の支援や非DXの改善が語られている。",
+            "en": "Hands-on, peer and nontechnical improvements are reported."
+          },
+          "interpretation": {
+            "ja": "新しい機器より課題整理が必要な場合があり得る。",
+            "en": "Problem framing may matter more than a new device in some cases."
+          },
+          "unknown": {
+            "ja": "既存センターに相談しない理由は不明。",
+            "en": "Reasons for not consulting existing centers are unknown."
+          },
+          "next": {
+            "ja": "非参加事業所と既存相談センターの利用実態を確認。",
+            "en": "Investigate nonparticipants and use of existing centers."
+          },
+          "evidenceIds": [
+            "E02",
+            "E03",
+            "E06",
+            "facilities"
+          ]
+        },
+        "risk": {
+          "known": {
+            "ja": "安全性・負担の測定なし。",
+            "en": "No safety or burden measurement."
+          },
+          "interpretation": {
+            "ja": "職員の記録負担、本人のプライバシー、家族への効果の過大評価。",
+            "en": "Staff recording burden, privacy and overstated family benefits."
+          },
+          "unknown": {
+            "ja": "発生頻度・影響と提供可能な範囲は未確認。",
+            "en": "Frequency, impact and delivery boundaries are unknown."
+          },
+          "next": {
+            "ja": "同意・役割分担・中止条件を本人と関係者に確認。",
+            "en": "Check consent, roles and stopping rules with those involved."
+          },
+          "evidenceIds": []
+        }
+      },
+      "next": {
+        "ja": "隣接する事業者課題として残す。家族課題との関係を確認。",
+        "en": "Retain as an adjacent provider problem and investigate links to family needs."
+      },
+      "existingMeans": {
+        "ja": "既存相談センター／伴走・仲間の支援／非DXの業務改善",
+        "en": "Existing advice centers / hands-on and peer support / nontechnical improvement"
+      },
+      "overview": {
+        "title": {
+          "ja": "事業所の改善を続ける",
+          "en": "Sustain provider improvement"
+        },
+        "impact": {
+          "ja": "介護事業所の職員に、機器の未使用や操作・改善継続の難しさが語られた（支援者の要約）。",
+          "en": "Practitioner summaries describe unused equipment and difficulties operating or sustaining improvements in care providers."
+        },
+        "scale": {
+          "ja": "事業所側の事例・要約が中心。対象事業所を分母にした改善未定着の割合や、改善による家族の負担軽減は未測定。",
+          "en": "Evidence is mainly provider-side accounts. The share of eligible providers with unsustained improvements and resulting family burden reduction are unmeasured."
+        },
+        "gap": {
+          "ja": "既存の伴走支援で解消しない条件は未確認。",
+          "en": "Conditions unresolved by existing hands-on support are unknown."
+        },
+        "risk": {
+          "ja": "検討点：職員の記録負担と利用者のプライバシーに配慮する。",
+          "en": "Consideration: staff documentation burdens and service-user privacy."
+        }
+      },
+      "overviewEvidenceIds": {
+        "impact": [
+          "E02",
+          "E03",
+          "E06"
+        ],
+        "scale": [
+          "E02",
+          "facilities"
+        ]
+      }
+    },
+    {
+      "id": "discharge",
+      "title": {
+        "ja": "退院時の家族調整",
+        "en": "Family coordination at discharge"
+      },
+      "evidenceIds": [],
+      "cells": {
+        "impact": {
+          "known": {
+            "ja": "直接使える退院場面の調査・当事者記録は未収集。",
+            "en": "No directly usable discharge study or first-person record collected."
+          },
+          "interpretation": {
+            "ja": "既存HTMLの移行場面の整理から残した探索候補。",
+            "en": "An exploratory candidate retained from the dashboard’s transition map."
+          },
+          "unknown": {
+            "ja": "具体的な困りごと、主体、頻度、影響は不明。",
+            "en": "Specific difficulties, actors, frequency and impact are unknown."
+          },
+          "next": {
+            "ja": "退院支援の調査を読み、退院した家族と病院の支援職へ聞く。",
+            "en": "Read discharge research and interview recently discharged families and hospital staff."
+          },
+          "evidenceIds": []
+        },
+        "market": {
+          "known": {
+            "ja": "規模の実測なし。",
+            "en": "No measured market size."
+          },
+          "interpretation": {
+            "ja": "数える対象の案。需要や支払いとは別。",
+            "en": "Proposed counting unit, distinct from demand or payment."
+          },
+          "unknown": {
+            "ja": "対象人口・頻度・支払者・単価は未確認。",
+            "en": "Population, frequency, payer and price are unconfirmed."
+          },
+          "next": {
+            "ja": "退院支援を受けたケースを分母に、家族に未解決の調整が残る件数・時間を数える。",
+            "en": "Among discharge-support cases, count unresolved family coordination and time."
+          },
+          "evidenceIds": []
+        },
+        "gap": {
+          "known": {
+            "ja": "課題の根拠として使える直接資料なし。",
+            "en": "No direct source usable as evidence for this problem."
+          },
+          "interpretation": {
+            "ja": "資料が少ないことは重要度が低いことを意味しない。",
+            "en": "Sparse evidence does not mean low importance."
+          },
+          "unknown": {
+            "ja": "病院・ケアマネの調整後に何が残るか不明。",
+            "en": "What remains after hospital and care-manager coordination is unknown."
+          },
+          "next": {
+            "ja": "退院した家族・病院の退院支援職・ケアマネ・民間窓口に、退院日から逆算して送迎、福祉用具、訪問介護等の担当・依頼日・開始日・未手配を同じ1件で聞く。",
+            "en": "For one recent discharge, ask family, hospital team, care manager and private provider who arranged transport, equipment and home care, request/start dates and what remained unarranged."
+          },
+          "evidenceIds": []
+        },
+        "risk": {
+          "known": {
+            "ja": "安全性・負担の測定なし。",
+            "en": "No safety or burden measurement."
+          },
+          "interpretation": {
+            "ja": "退院直後の調査負担、医療・介護との責任分担。",
+            "en": "Research burden after discharge and medical/care responsibilities."
+          },
+          "unknown": {
+            "ja": "発生頻度・影響と提供可能な範囲は未確認。",
+            "en": "Frequency, impact and delivery boundaries are unknown."
+          },
+          "next": {
+            "ja": "同意・役割分担・中止条件を本人と関係者に確認。",
+            "en": "Check consent, roles and stopping rules with those involved."
+          },
+          "evidenceIds": []
+        }
+      },
+      "next": {
+        "ja": "根拠不足で判断保留。退院支援資料と当事者記録を先に集める。",
+        "en": "Defer judgment for insufficient evidence; collect discharge research and family accounts."
+      },
+      "existingMeans": {
+        "ja": "病院の退院支援／ケアマネによる調整（照合する対象の仮説）",
+        "en": "Hospital discharge support / care-manager coordination (proposed options to examine)"
+      },
+      "overview": {
+        "title": {
+          "ja": "退院時の家族調整を支える",
+          "en": "Support family coordination at discharge"
+        },
+        "impact": {
+          "ja": "退院後の生活を整える家族の調整負担は探索仮説で、困りごとの直接資料は未収集。",
+          "en": "Family coordination burdens at discharge are exploratory hypotheses; direct evidence of the difficulty is uncollected."
+        },
+        "scale": {
+          "ja": "退院ケースを分母にした未手配の割合・残る調整時間は未確認。サービスの提供案内を発生頻度とは扱わない。",
+          "en": "Unarranged-support rates per discharge and remaining coordination time are unknown. Service descriptions do not measure problem frequency."
+        },
+        "gap": {
+          "ja": "探索仮説：病院・ケアマネの支援後に家族に何が残るか。",
+          "en": "Exploratory hypothesis: what remains for family after hospital and care-manager support?"
+        },
+        "risk": {
+          "ja": "検討点：退院直後の調査負担と責任分担に配慮する。",
+          "en": "Consideration: research burden just after discharge and division of responsibility."
+        }
+      },
+      "overviewEvidenceIds": {
+        "impact": [],
+        "scale": []
+      }
+    }
+  ],
+  "inventory": [
+    {
+      "id": "html",
+      "title": {
+        "ja": "既存HTMLと実装",
+        "en": "Existing HTML and implementation"
+      },
+      "read": {
+        "ja": "imported-dashboard/index.htmlのFIELDWORK、S4_RECORDS E01–E10、FINDINGS、S4_JOURNEY、S4_GAPS、商品・制度の出典一覧、N14_ROWSを確認。frontendの既存画面も確認。",
+        "en": "Read FIELDWORK, S4_RECORDS E01–E10, FINDINGS, S4_JOURNEY, S4_GAPS, product/system references and N14_ROWS in imported-dashboard/index.html, plus existing frontend pages."
+      },
+      "missing": false
+    },
+    {
+      "id": "datasets",
+      "title": {
+        "ja": "公開調査・事例の既存抽出",
+        "en": "Existing survey and case extracts"
+      },
+      "read": {
+        "ja": "visits.jsonの5件、precare.jsonの2件と、HTMLだけにあった追加8件を確認。原典URL・設問や図表・対象・分母・限界を保持。原典自体の再閲覧は今回未実施。",
+        "en": "Read five visits records, two precare records and eight additional HTML records. Retained URLs, questions/figures, populations, denominators and limits; originals were not reopened this time."
+      },
+      "missing": false
+    },
+    {
+      "id": "interviews",
+      "title": {
+        "ja": "聞き取り記録：HTML内の要約10件",
+        "en": "Interview records: ten HTML summaries"
+      },
+      "read": {
+        "ja": "実務者・支援者・運営者の要約。元ゼミ生との対話はFIELDWORKの活動概要のみ。逐語録の時刻参照は引き継いだが、原議事録は読めていない。家族本人への直接調査とは扱わない。",
+        "en": "Practitioner, supporter and operator summaries. The former-student discussion has only a FIELDWORK activity outline. Transcript timestamps are inherited; original transcripts were unavailable. Not treated as direct family-user interviews."
+      },
+      "missing": false
+    },
+    {
+      "id": "competitors",
+      "title": {
+        "ja": "通院の競合と代替手段",
+        "en": "Appointment providers and alternatives"
+      },
+      "read": {
+        "ja": "competitors.jsonの2社とresearch.jsonの4手段。前回確認日を保持。今回は公式サイト再確認・問い合わせを行っていない。",
+        "en": "Two providers in competitors.json and four alternatives in research.json. Prior check date retained; no official-site recheck or inquiry this time."
+      },
+      "missing": false
+    },
+    {
+      "id": "transcripts",
+      "title": {
+        "ja": "未取り込み：元のインタビュー議事録",
+        "en": "Not imported: original interview transcripts"
+      },
+      "read": {
+        "ja": "リポジトリ内に独立した逐語録・音声は見つからない。別チャットの本文にはアクセスしていない。",
+        "en": "No standalone transcripts or audio found in the repository. Content in other chats was not accessed."
+      },
+      "missing": true
+    },
+    {
+      "id": "deep",
+      "title": {
+        "ja": "未取り込み：Deep Research全文・教授の原コメント",
+        "en": "Not imported: full Deep Research and faculty originals"
+      },
+      "read": {
+        "ja": "HTMLに10月23日の二次レビューや10月18日の教授コメントへの言及はあるが、全文・独立ファイルはない。HTML内の引用・要約だけを確認し、新たな独立根拠には数えない。",
+        "en": "HTML mentions an Oct 23 secondary review and Oct 18 faculty comments, but no full reports or standalone originals are present. Read only HTML references/summaries; not counted as independent evidence."
+      },
+      "missing": true
+    }
+  ],
+  "problemTree": [
+    {
+      "candidateId": "appointments",
+      "branch": {
+        "ja": "時間・調整",
+        "en": "Time and coordination"
+      },
+      "scene": {
+        "ja": "親の通院を任せたいとき、希望日に手配できるか",
+        "en": "Can a parent’s appointment accompaniment be arranged for the requested date?"
+      }
+    },
+    {
+      "candidateId": "respite",
+      "branch": {
+        "ja": "時間・調整",
+        "en": "Time and coordination"
+      },
+      "scene": {
+        "ja": "家族が介護を任せた後も、自分の休息を取れない",
+        "en": "Family cannot recover even after delegating care"
+      }
+    },
+    {
+      "candidateId": "discharge",
+      "branch": {
+        "ja": "時間・調整",
+        "en": "Time and coordination"
+      },
+      "scene": {
+        "ja": "家族が退院時に、帰宅後の支援を調整しきれない（探索仮説）",
+        "en": "Family cannot finish arranging post-discharge support (exploratory)"
+      }
+    },
+    {
+      "candidateId": "cost",
+      "branch": {
+        "ja": "費用",
+        "en": "Cost"
+      },
+      "scene": {
+        "ja": "家族が支援を使いたい時に、費用の負担で利用を断念する",
+        "en": "Family forgoes desired support because of its cost"
+      }
+    },
+    {
+      "candidateId": "access",
+      "branch": {
+        "ja": "支援へのアクセス",
+        "en": "Access to support"
+      },
+      "scene": {
+        "ja": "家族が相談する時に、困っていることを言葉にできない",
+        "en": "Family cannot put concerns into words when seeking help"
+      }
+    },
+    {
+      "candidateId": "implementation",
+      "branch": {
+        "ja": "支援へのアクセス",
+        "en": "Access to support"
+      },
+      "scene": {
+        "ja": "職員が改善策を導入した後、日常業務で使い続けられない",
+        "en": "Staff cannot sustain an improvement in everyday work"
+      }
+    },
+    {
+      "candidateId": "dialogue",
+      "branch": {
+        "ja": "親の希望と意思決定",
+        "en": "Wishes and decisions"
+      },
+      "scene": {
+        "ja": "家族が支援を決める時に、親の希望が分からない",
+        "en": "Family does not know the parent’s wishes when choosing support"
+      }
+    }
+  ],
+  "businessIdeas": [
+    {
+      "candidateId": "appointments",
+      "payment": {
+        "ja": "働く子が、親の通院の手配・同行に1回ごとに払う",
+        "en": "Working children pay per arranged and accompanied parental appointment"
+      }
+    },
+    {
+      "candidateId": "dialogue",
+      "payment": {
+        "ja": "家族が、親の希望を確認する対話支援に払う",
+        "en": "Families pay for facilitated conversations about parental wishes"
+      }
+    },
+    {
+      "candidateId": "access",
+      "payment": {
+        "ja": "家族が、相談内容の整理と支援接続に払う",
+        "en": "Families pay for concern framing and connection to support"
+      }
+    },
+    {
+      "candidateId": "cost",
+      "payment": {
+        "ja": "家族が、給付と支出の整理支援に払う",
+        "en": "Families pay for help reviewing benefits and care spending"
+      }
+    },
+    {
+      "candidateId": "respite",
+      "payment": {
+        "ja": "介護する家族が、代替介護を伴う休息支援に払う",
+        "en": "Family carers pay for respite with replacement care"
+      }
+    },
+    {
+      "candidateId": "implementation",
+      "payment": {
+        "ja": "介護事業所が、改善の継続支援に月額で払う",
+        "en": "Care providers pay monthly for improvement support"
+      }
+    },
+    {
+      "candidateId": "discharge",
+      "payment": {
+        "ja": "家族が、退院後の支援調整に1回ごとに払う",
+        "en": "Families pay per post-discharge support arrangement"
+      }
+    }
+  ],
+  "vision": {
+    "ja": "年を重ねることを、楽しみにできる社会へ。",
+    "en": "How can we make ageing something people can look forward to?"
+  }
+}

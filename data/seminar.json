@@ -1,0 +1,1219 @@
+{
+  "provenance": {
+    "legacyFile": "imported-dashboard/index.html",
+    "originalSourcesRechecked": false,
+    "transcriptsRead": false
+  },
+  "rows": [
+    {
+      "id": "move",
+      "topic": "precare",
+      "status": "confirmed",
+      "kind": "case",
+      "sources": [
+        "move"
+      ],
+      "problem": {
+        "en": "When a care home is needed, a family can choose a location without having discussed the parent’s wishes enough.",
+        "ja": "親の希望を十分に聞けないまま、住まいを決める場面がある。"
+      },
+      "result": {
+        "en": "A daughter recalled choosing to move her mother closer to her without enough time to discuss where her mother wanted to live.",
+        "ja": "母の施設入所に際し、どの地域で暮らしたいか十分に話す時間がないまま、自分の住む地域に母を呼び寄せたと娘が振り返った。"
+      },
+      "scope": {
+        "en": "One daughter interviewed in a 2023 article.",
+        "ja": "娘1人への2023年の取材。"
+      },
+      "limit": {
+        "en": "The mother’s actual preference and what would have happened after an earlier discussion are unknown. This is not a measure of prevalence or effect.",
+        "ja": "母の実際の希望や、事前に話した場合の結果は不明。発生率や対話の効果は示さない。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / move"
+    },
+    {
+      "id": "ask",
+      "topic": "precare",
+      "status": "confirmed",
+      "kind": "case",
+      "sources": [
+        "ask"
+      ],
+      "problem": {
+        "en": "After care starts, a main family contact may not know how to ask relatives for help.",
+        "ja": "介護が始まってから、家族にどう協力を求めるか迷うことがある。"
+      },
+      "result": {
+        "en": "A caregiver reported taking the lead for her parents-in-law without prior discussion and being unsure how to ask her husband and sister-in-law for help. She separately recalled feeling more at ease after talking with siblings about her own parents.",
+        "ja": "義父母の介護を事前に話し合わず、連絡窓口を引き受けた後、夫や義姉への協力の求め方に悩んだと報告。同じ手記では、実親についてきょうだいと話して気が楽になったとも振り返っている。"
+      },
+      "scope": {
+        "en": "One family caregiver’s first-person account, published in 2021.",
+        "ja": "家族介護者1人の2021年の手記。"
+      },
+      "limit": {
+        "en": "Two experiences in one account, with different relatives and circumstances. They do not establish that discussing care earlier reduces burden.",
+        "ja": "同じ人の手記でも相手や状況が異なる。事前対話による負担軽減の効果は判断できない。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / ask"
+    },
+    {
+      "id": "yamanashi",
+      "topic": "precare",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "yamanashi16",
+        "yamanashi19"
+      ],
+      "problem": {
+        "en": "Some families start using care services without knowing enough about the older person’s desired way of living.",
+        "ja": "介護サービス利用開始時にも、本人が望む生活を十分に知らない家族がいる。"
+      },
+      "result": {
+        "en": "In Q16 (103 people), 23.3% knew little and 5.8% knew nothing about those wishes. Separately, in Q19 (103 people), 48.5% selected the person’s wishes and actual services used as a concern or dissatisfaction.",
+        "ja": "問16（103人）では「あまり知らなかった」23.3％、「全く知らなかった」5.8％。別の問19（103人）では48.5％が、本人の希望と実際に利用する介護サービスを心配・不安・不満の項目に選んだ。"
+      },
+      "scope": {
+        "en": "Yamanashi Prefecture, FY2019. The 103-person group includes relatives other than adult children. Q19 allowed multiple answers.",
+        "ja": "山梨県の2019年度調査。集計対象103人には子以外も含まれる。問19は複数回答。"
+      },
+      "limit": {
+        "en": "The published totals do not show whether the people who knew little about care wishes were the same people reporting this concern.",
+        "ja": "本人の希望を知らなかった人が、同じく不安を報告したかは集計からはわからない。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / yamanashi"
+    },
+    {
+      "id": "acp",
+      "topic": "precare",
+      "status": "partial",
+      "kind": "survey",
+      "sources": [
+        "acp"
+      ],
+      "problem": {
+        "en": "Prior discussion of future care is associated with concerns about having such discussions.",
+        "ja": "将来のケアについて話した経験と、話し合いそのものへの懸念に関連が見られる。"
+      },
+      "result": {
+        "en": "Mean concern scores: not initiated, 18.5 points (224 people); relatives only, 17.1 points (67 people); professionals involved, 16.3 points (88 people). Overall three-group comparison: p < 0.001.",
+        "ja": "懸念得点の平均：未開始18.5点（224人）、親族のみ17.1点（67人）、専門職も参加16.3点（88人）。3群全体の比較は p < 0.001。"
+      },
+      "scope": {
+        "en": "Online cross-sectional survey, June 25–27, 2021; 379 caregivers of people with dementia living at home. Published in 2022.",
+        "ja": "2021年6月25〜27日の横断インターネット調査。在宅の認知症の人を介護する家族379人。2022年公刊。"
+      },
+      "limit": {
+        "en": "The measure is concern about advance care planning conversations. It does not measure uncertainty about choosing a facility or service, effects of conversations, or a group limited to before care began.",
+        "ja": "測ったのは人生会議などの事前の話し合いへの懸念。施設・サービスを選ぶ迷い、対話の因果効果、介護前だけの比較はわからない。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / acp"
+    },
+    {
+      "id": "course",
+      "topic": "precare",
+      "status": "partial",
+      "kind": "survey",
+      "sources": [
+        "seminar",
+        "fukaya",
+        "workshop"
+      ],
+      "problem": {
+        "en": "Some carers identify a conversation with their parents as a possible next step after a seminar.",
+        "ja": "介護準備の講座で、親と話すことを次の行動に挙げた参加者がいる。"
+      },
+      "result": {
+        "en": "Of 155 post-seminar questionnaires, 74 (47.7%) indicated wanting to talk about it in future and 77 (49.7%) reported having talked before.",
+        "ja": "遠距離介護支援セミナーの事後アンケート155件中74件（47.7％）が今後話してみたい、77件（49.7％）が話したことがあると回答。"
+      },
+      "example": {
+        "en": "Fukaya’s advance care planning classes and a separate care preparation workshop were held.",
+        "ja": "深谷市の人生会議講座と、介護の備えを考える別のワークショップの開催が記録されている。"
+      },
+      "scope": {
+        "en": "National association’s FY2018 seminar pilot (report published March 2019), 155 submitted questionnaires. The other sources document separate activities in Fukaya (FY2022) and July 2026.",
+        "ja": "国診協の2018年度モデル事業（2019年3月報告）、参加者アンケート155件。深谷市は2022年度実績、ワークショップは2026年7月に開催。"
+      },
+      "limit": {
+        "en": "Intention is distinct from action. The timing of past conversations is not established; the reviewed reports do not track new parent–child conversations after attendance.",
+        "ja": "話したいという意向は実行とは別。既に話した時期は不明。確認した報告には講座参加後に新たな親子の会話を追跡した結果はない。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / course"
+    },
+    {
+      "id": "union",
+      "topic": "cost",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "union"
+      ],
+      "problem": {
+        "en": "Cost can be a barrier when someone needs to use private appointment assistance.",
+        "ja": "通院介助を自費サービスへ任せる際、費用が障壁になることがある。"
+      },
+      "result": {
+        "en": "Of 453 care managers who reported taking on appointment assistance not covered by public long-term care insurance, 37.3% selected a lack of money for private services as a reason.",
+        "ja": "介護保険制度上で対応できなかった通院介助を担ったケアマネジャー453人のうち37.3％が、自費サービスを使う金銭的余裕がなかったことを理由に選択。"
+      },
+      "scope": {
+        "en": "Nippon Care Craft Union survey, April 26–May 6, 2024. Q5 allowed multiple answers. Its relevant base is the 453 care managers who took on this task, from 641 total survey responses.",
+        "ja": "日本介護クラフトユニオンの2024年4月26日〜5月6日の調査。回答全体641件のうち、該当業務を担った453人が対象。Q5は複数回答。"
+      },
+      "limit": {
+        "en": "Practitioner reports for one task. This is not a share of all families, a measure of how many services were forgone, or evidence of demand for insurance.",
+        "ja": "特定業務についてのケアマネジャーの回答。家族全体の割合、見送った支援の頻度、保険への加入意向は測っていない。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / union"
+    },
+    {
+      "id": "tobetsu",
+      "topic": "roles",
+      "status": "confirmed",
+      "kind": "case",
+      "sources": [
+        "tobetsu"
+      ],
+      "problem": {
+        "en": "Someone can still do the work but lose the ability to reach the worksite.",
+        "ja": "作業ができても、移動手段を失うと仕事先に行けなくなる場合がある。"
+      },
+      "result": {
+        "en": "Staff described a member who surrendered a driving licence and could continue working by sharing rides with other Silver Human Resources Center members.",
+        "ja": "運転免許を返納したシルバー人材センター会員が、他の会員との車の乗り合わせで仕事を続けた事例が報告された。"
+      },
+      "scope": {
+        "en": "Tobetsu Silver Human Resources Center staff interview, December 2025. One example in an organizational case report.",
+        "ja": "当別町シルバー人材センター職員への2025年12月の聞き取りに基づく1事例。"
+      },
+      "limit": {
+        "en": "The transport issue and an existing way to address it were observed. The share of older people wanting to work or unable to keep working is unknown.",
+        "ja": "移動の障壁と、既存の工夫で対応できた例。仕事の継続を望む人や、継続できない人の割合はわからない。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / tobetsu"
+    },
+    {
+      "id": "facilities",
+      "topic": "roles",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "facilities"
+      ],
+      "problem": {
+        "en": "Care facilities can struggle to find companies to help design suitable work-related activities.",
+        "ja": "介護施設が、要介護高齢者に合う活動をつくる協力企業を見つけにくい場合がある。"
+      },
+      "result": {
+        "en": "The study identifies finding partner companies as a difficulty in operating work-related activities for older people in care facilities.",
+        "ja": "就労的活動を実施する介護施設の調査で、適した活動づくりのための協力企業探しが運営上の課題として報告された。"
+      },
+      "scope": {
+        "en": "Study of care facilities offering work-related activities in Japan, published in 2024. This entry presents a provider-side finding without a rate or denominator for how often the difficulty occurred.",
+        "ja": "国内で就労的活動を実施する介護施設を調べた2024年公刊論文。ここでは事業所側の課題を示し、協力企業探しの発生割合や分母は掲載しない。"
+      },
+      "limit": {
+        "en": "This is a provider-side operational issue. Older people’s own preferences and demand for paid employment remain to be assessed.",
+        "ja": "事業所側の運営上の課題。本人側の就労希望や、有償雇用への需要とは分けて確認する必要がある。"
+      },
+      "localLocation": "imported-dashboard/index.html · N14_ROWS / facilities"
+    },
+    {
+      "id": "E01",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E01"
+      ],
+      "problem": {
+        "ja": "訪問介護で引き受けられない対応があり、訪問の調整が必要。",
+        "en": "Home care excludes some tasks and requires visit coordination."
+      },
+      "result": {
+        "en": "Described tasks that cannot be undertaken under insured home-visit care and the practical work of coordinating visits.",
+        "ja": "介護保険の訪問介護で行えない対応と、訪問を調整する実務が語られた。"
+      },
+      "scope": {
+        "en": "Home-care practitioner",
+        "ja": "在宅介護の実務者"
+      },
+      "limit": {
+        "en": "The family’s actual unmet tasks, costs and time; the interviewee’s care-manager qualification was not established. The transcript describes home-visit work and coordination.",
+        "ja": "家族側で残る作業・費用・時間は未確認。議事録は訪問介護の実務と調整の説明であり、ケアマネジャー資格は確認できていない。"
+      },
+      "trace": {
+        "en": "Original transcript 00:32 onward; service-boundary discussion",
+        "ja": "原議事録00:32以降・サービス範囲の説明"
+      },
+      "date": "2026-10-13",
+      "interpretation": {
+        "en": "A service menu and the family’s actual needs may not fit exactly.",
+        "ja": "制度上のメニューと、家族が必要とする対応にはずれが生じ得る。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E01"
+    },
+    {
+      "id": "E02",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E02"
+      ],
+      "problem": {
+        "ja": "導入した機器が使われず、改善の継続が難しい例。",
+        "en": "Technology can remain unused and improvement can be hard to sustain."
+      },
+      "result": {
+        "en": "Reported unused technology and emphasized management commitment, staff ownership and the ability to continue improving. Some rural areas face provider survival issues.",
+        "ja": "機器が使われない例、経営層の関与、職員の主体性、自走できる改善の重要性が語られた。地域によっては施設の存続も課題とされた。"
+      },
+      "scope": {
+        "en": "Care productivity support professional · Oita",
+        "ja": "介護生産性向上支援の専門職・大分"
+      },
+      "limit": {
+        "en": "Which non-participating providers need help, and whether provider gains reach family carers.",
+        "ja": "支援に参加しない事業所の実態、事業所の改善が家族へ及ぶ経路と効果。"
+      },
+      "trace": {
+        "en": "Original transcript · management / regional differences",
+        "ja": "原議事録・組織改善と地域差の箇所"
+      },
+      "date": "2026-10-14",
+      "interpretation": {
+        "en": "Buying technology is different from changing how care work is done.",
+        "ja": "機器の購入と、業務が実際に変わることは分けて考える必要がある。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E02"
+    },
+    {
+      "id": "E03",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E03"
+      ],
+      "problem": {
+        "ja": "事業所が何を相談すればよいか整理できない例。",
+        "en": "Some providers cannot frame what they need help with."
+      },
+      "result": {
+        "en": "Some providers have difficulty saying what they need help with. Workflow changes without new technology can help; meaningful participation by older people was also discussed.",
+        "ja": "何を相談すればよいか整理できない事業所があるという報告。技術を使わない業務見直しや、高齢者自身が役割を持つ考え方も示された。"
+      },
+      "scope": {
+        "en": "Care productivity support professional · Osaka",
+        "ja": "介護生産性向上支援の専門職・大阪"
+      },
+      "limit": {
+        "en": "Why providers do not consult; effects on family time or wellbeing.",
+        "ja": "相談しない理由、家族の時間・心の余裕への効果。"
+      },
+      "trace": {
+        "en": "Original transcript · problem identification / non-DX improvement",
+        "ja": "原議事録・課題抽出とDXによらない改善の箇所"
+      },
+      "date": "2026-10-14",
+      "interpretation": {
+        "en": "Identifying and prioritizing the problem may precede selecting a tool.",
+        "ja": "手段を選ぶ前に、何を改善するかを明確にする支援が必要かもしれない。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E03"
+    },
+    {
+      "id": "E04",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E04"
+      ],
+      "problem": {
+        "ja": "担い手不足と連携コスト。一方、既存支援で両立できる場合も。",
+        "en": "Staffing and coordination constraints coexist with cases adequately served."
+      },
+      "result": {
+        "en": "Questioned whether knowing every service creates reassurance. Described workforce constraints and coordination costs; also considered sustainable work–care arrangements possible with existing support. Paper notes can be practical in some settings.",
+        "ja": "すべての支援を知れば安心するのか、という問いが示された。担い手不足と連携コストの報告に加え、既存支援で両立できる場合もあるという見方、紙の記録が実務上合理的な場面も語られた。"
+      },
+      "scope": {
+        "en": "Municipal professional · individual contribution",
+        "ja": "自治体の専門職・個人としての協力"
+      },
+      "limit": {
+        "en": "How often support is sufficient or insufficient. Date not independently established; a transcript confirms the conversation.",
+        "ja": "支援が十分・不十分なケースの頻度。議事録で実施は確認できるが、実施日は独立確認できていない。"
+      },
+      "trace": {
+        "en": "Original transcript 11:00–16:30; 27:22–35:35",
+        "ja": "原議事録11:00〜16:30、27:22〜35:35"
+      },
+      "date": null,
+      "interpretation": {
+        "en": "Test actual unmet episodes and people’s preferences rather than assuming more information or digitization is always better.",
+        "ja": "情報やデジタル化の量ではなく、本人の希望と、実際に困った場面を確かめる必要がある。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E04"
+    },
+    {
+      "id": "E05",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E05"
+      ],
+      "problem": {
+        "ja": "自然体験の長期追跡が限られ、価格・移動も課題。",
+        "en": "Nature programs have limited long-term follow-up and cost/travel constraints."
+      },
+      "result": {
+        "en": "Main experience was with corporate groups. Described social connection and immediate feedback; long-term follow-up was limited. Discussed local urban trials before more distant forest visits, and price / transport / hosting constraints.",
+        "ja": "主な経験は企業・団体向け。交流や直後の感想の報告がある一方、長期追跡は限られる。近隣の都市緑地から段階的に試す案と、価格・交通・受入体制の課題が語られた。"
+      },
+      "scope": {
+        "en": "Nature-program operator · Shinano",
+        "ja": "自然体験プログラムの運営者・信濃町"
+      },
+      "limit": {
+        "en": "Demand, willingness to pay, lasting family-carer outcomes and viable unit economics. Interest in cooperation is not an agreed pilot.",
+        "ja": "家族介護者の需要、支払意思、効果の持続、採算。協力への関心は、実証の実施合意ではない。"
+      },
+      "trace": {
+        "en": "Original transcript 07:28–08:45; 17:51–24:48; 26:21–28:05",
+        "ja": "原議事録07:28〜08:45、17:51〜24:48、26:21〜28:05"
+      },
+      "date": "2026-10-19",
+      "interpretation": {
+        "en": "A nearby small trial may be practical, but nature-specific added value must be separated from time off and social contact.",
+        "ja": "近場の小規模試行は候補になる。自由時間や交流とは別に、自然ならではの追加価値を確かめる必要がある。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E05"
+    },
+    {
+      "id": "E06",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E06"
+      ],
+      "problem": {
+        "ja": "初期設定や操作でつまずき、紙とデジタルの連絡が併存。",
+        "en": "Setup and operation cause friction; paper and digital contact coexist."
+      },
+      "result": {
+        "en": "Reported anxiety and small operational obstacles at setup, helped by hands-on and peer support. Different family devices require mixed paper/digital contact. Monitoring raises privacy and cost issues. Described one resident-care case with family reassurance, not measured family time savings.",
+        "ja": "初期設定時の不安や小さな操作障壁と、実操作・仲間による支援が報告された。家族の機器環境が異なり紙とデジタルが併存。見守りにはプライバシーと費用の論点がある。家族の安心につながった入所者ケアの一例はあるが、家族の時間削減を測ったものではない。"
+      },
+      "scope": {
+        "en": "Care productivity support professional · Yamagata",
+        "ja": "介護生産性向上支援の専門職・山形"
+      },
+      "limit": {
+        "en": "Scale, non-users and family outcomes. Personal cost and privacy priorities need direct confirmation.",
+        "ja": "広がり、非利用者、家族側の効果。本人・家族が費用とプライバシーをどう判断するか。"
+      },
+      "trace": {
+        "en": "Original transcript 03:39–07:25; 10:47–15:21; 16:23–21:27",
+        "ja": "原議事録03:39〜07:25、10:47〜15:21、16:23〜21:27"
+      },
+      "date": "2026-10-22",
+      "interpretation": {
+        "en": "Implementation support and accessible communication may matter as much as having a system.",
+        "ja": "システムの有無に加え、最初の一歩と、使える連絡手段を支える必要があるかもしれない。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E06"
+    },
+    {
+      "id": "E07",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E07"
+      ],
+      "problem": {
+        "ja": "家庭の事情を話しにくく、同じ立場の相手が意味を持つ。",
+        "en": "Family circumstances can be hard to disclose; peers can matter."
+      },
+      "result": {
+        "en": "Discussed difficulty disclosing family circumstances and the value of speaking with peers. Warned against treating caring identities or family experience as uniformly negative.",
+        "ja": "家庭の事情を話しにくいこと、同じ立場で話せる場の意味が語られた。ケアや家族の経験を、一律に否定的なものとして捉えることへの注意も示された。"
+      },
+      "scope": {
+        "en": "Sibling / young-carer peer-support organizers",
+        "ja": "きょうだい・ヤングケアラーの当事者支援者"
+      },
+      "limit": {
+        "en": "Transferability to adult children caring for aging parents. Interview date unconfirmed; excluded from date-specific counts.",
+        "ja": "親の介護を担う成人への当てはまり。実施日は未確認のため、日付別の件数には含めない。"
+      },
+      "trace": {
+        "en": "Original transcript 03:43–05:06; 09:00–13:28",
+        "ja": "原議事録03:43〜05:06、09:00〜13:28"
+      },
+      "date": null,
+      "interpretation": {
+        "en": "Recruitment and research language should allow different experiences and avoid imposed labels.",
+        "ja": "募集や質問では、当事者の多様な経験を認め、外からラベルを押し付けない配慮が必要。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E07"
+    },
+    {
+      "id": "E08",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E08"
+      ],
+      "problem": {
+        "ja": "ケアマネに何を相談すればよいか分からない相談例。",
+        "en": "Some callers do not know what to ask their care manager."
+      },
+      "result": {
+        "en": "Some callers do not know what to ask their care manager, hesitate to raise concerns, or want to be heard rather than request a procedure. Anonymous or out-of-area consultation can matter. The practitioner cannot systematically track what callers do afterwards.",
+        "ja": "ケアマネジャーに何を相談すればよいか分からない、要望を伝えづらい、手続きより話を聞いてほしいという相談例。匿名・地域外の相談も重要になり得る。相談後の行動は十分に追跡できていない。"
+      },
+      "scope": {
+        "en": "Family consultation / care-support practitioner · Yamanashi",
+        "ja": "家族相談・介護支援の実務者・山梨"
+      },
+      "limit": {
+        "en": "How common this is, whether the next step is taken, whether existing support suffices, and whether additional help is worth paying for. Interview date is absent from the transcript.",
+        "ja": "発生割合、次の行動、既存支援で十分か、追加支援への支払意思は未確認。実施日は議事録に記載なし。"
+      },
+      "trace": {
+        "en": "Private transcript 06:25–09:57, 12:22–19:13, 32:51–33:37; reviewed Oct 26. Approximate conversational ratios are not used as statistics.",
+        "ja": "原議事録06:25〜09:57、12:22〜19:13、32:51〜33:37。10月26日照合。その場の概算比率は統計として採用しない。"
+      },
+      "date": null,
+      "interpretation": {
+        "en": "Clarifying a request, trust and an appropriate next step may matter alongside information. An AI service is only one untested response.",
+        "ja": "情報に加え、相談内容の言語化、安心して話せる関係、適切な次の一歩が重要かもしれない。AIサービスが必要かは未検証。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E08"
+    },
+    {
+      "id": "E09",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E09"
+      ],
+      "problem": {
+        "ja": "通所中は任せられる例も、突然の迎えや変更には対応負担。",
+        "en": "Some delegate during day care, while sudden pickups and changes add demands."
+      },
+      "result": {
+        "en": "Consultations can move from managing symptoms to lack of sleep, personal time, future uncertainty and service acceptance. The organizer also described families who can confidently delegate during day or short-stay care; sudden changes or collection requests create new demands. Online contact does not necessarily resolve everyday coordination.",
+        "ja": "症状への対応から、睡眠・自分の時間・将来・受入先の悩みへ相談が深まる場合がある。一方、通所・短期入所中は安心して任せられる家族もいるとの印象。突然の迎えや利用変更には対応負担。オンライン交流だけで日々の調整が解消するとは限らない。"
+      },
+      "scope": {
+        "en": "Dementia family-support organizer · Ibaraki",
+        "ja": "認知症の家族支援団体の運営者・茨城"
+      },
+      "limit": {
+        "en": "Frequency, net time effect, what this concept could improve and willingness to pay. Interview date is absent from the transcript.",
+        "ja": "頻度、正味の時間、今回の構想で改善できること、支払意思は未確認。実施日は議事録に記載なし。"
+      },
+      "trace": {
+        "en": "Private transcript 05:53–09:11, 11:15–16:20; reviewed Oct 26. Reports of delegation are not measured recovery outcomes.",
+        "ja": "原議事録05:53〜09:11、11:15〜16:20。10月26日照合。任せられるという報告は、回復効果の測定ではない。"
+      },
+      "date": null,
+      "interpretation": {
+        "en": "Start with a concrete episode and listen for the underlying need. Compare adequate support with unresolved cases rather than assuming nobody can rest.",
+        "ja": "具体的な1件から、背後のニーズを聞く。全員が休めないと決めつけず、支援が十分な例と不足する例を比べる。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E09"
+    },
+    {
+      "id": "E10",
+      "topic": "fieldwork",
+      "kind": "interview-summary",
+      "status": "partial",
+      "sources": [
+        "E10"
+      ],
+      "problem": {
+        "ja": "負担の自覚や相談が難しく、解決策より先に傾聴する実践。",
+        "en": "Recognizing burden and seeking advice can be difficult; practice starts with listening."
+      },
+      "result": {
+        "en": "Described unrecognized burden, listening before solutions, relationships before crisis, school outreach and checking wishes/existing resources first. Earlier elder-care work also motivated opportunities to hear family concerns.",
+        "ja": "負担の自覚の難しさ、解決策の前の傾聴、平時の関係性、学校へのアウトリーチ、希望と既存資源を先に確認する実践が語られた。過去の高齢者介護業務でも、家族の話を聞く機会の必要性を感じたとの説明。"
+      },
+      "scope": {
+        "en": "Young-carer consultation practitioner · Hokkaido",
+        "ja": "ヤングケアラー相談支援の実務者・北海道"
+      },
+      "limit": {
+        "en": "Transfer to adult children, frequency, actual action, net burden and payment are untested. Public reuse of detailed school counts and commercial collaboration examples is not confirmed.",
+        "ja": "成人子への適用、頻度、行動、正味負担、支払いは未検証。学校数や企業連携の詳細の外部公表可否は未確認。"
+      },
+      "trace": {
+        "en": "Original private transcript: 02:27–05:26 (earlier care work); 05:26–09:11 (listening/wishes/resources); 09:56–13:31 (outreach/trust); 18:18–19:25 (accessible places). Date supplied by researcher; reviewed Oct 27. Paraphrases, not attributed verbatim quotes.",
+        "ja": "非公開原議事録02:27〜05:26（過去の介護業務）、05:26〜09:11（傾聴・希望・資源）、09:56〜13:31（働きかけ・信頼）、18:18〜19:25（入りやすい場）。実施日は研究者提供、10月27日照合。逐語引用ではなく文脈に沿う要約。"
+      },
+      "date": "2026-10-27",
+      "interpretation": {
+        "en": "Support may need to start before someone identifies a service request. The five-stage model is the researcher’s synthesis, not the center’s endorsed model.",
+        "ja": "明確なサービス依頼の前から支援の接点が必要かもしれない。5段階モデルは研究者の整理で、センターが提唱・承認したものではない。"
+      },
+      "localLocation": "imported-dashboard/index.html · S4_RECORDS / E10"
+    }
+  ],
+  "sources": {
+    "move": {
+      "label": {
+        "en": "Shukan Josei PRIME · daughter’s account, page 6",
+        "ja": "週刊女性PRIME・6ページ目、娘の振り返り"
+      },
+      "url": "https://www.jprime.jp/articles/-/29996?page=6"
+    },
+    "ask": {
+      "label": {
+        "en": "Nakamaaru · Manami Shimakage’s account",
+        "ja": "なかまぁる・島影真奈美さんの手記"
+      },
+      "url": "https://nakamaaru.asahi.com/article/14322758"
+    },
+    "yamanashi16": {
+      "label": {
+        "en": "Yamanashi Prefecture · p. 47, Q16",
+        "ja": "山梨県「健康長寿やまなし」に関する実態調査・p.47、問16"
+      },
+      "url": "https://www.pref.yamanashi.jp/documents/94905/03annketokekka.pdf#page=52"
+    },
+    "yamanashi19": {
+      "label": {
+        "en": "Yamanashi Prefecture · p. 48, Q19",
+        "ja": "山梨県・p.48、問19"
+      },
+      "url": "https://www.pref.yamanashi.jp/documents/94905/03annketokekka.pdf#page=53"
+    },
+    "acp": {
+      "label": {
+        "en": "Nakanishi et al. (2022) · Tables 1 and 3",
+        "ja": "Nakanishiほか（2022）表1・3"
+      },
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9235165/"
+    },
+    "seminar": {
+      "label": {
+        "en": "National Health Insurance Clinics and Hospitals Association · appendix 1-3, Q7, p. 47",
+        "ja": "国診協・活動報告書、参考資料1-3 Q7、p.47"
+      },
+      "url": "https://www.kokushinkyo.or.jp/Portals/0/Report-houkokusyo/H30/%E4%BB%8B%E8%AD%B7%E9%9B%A2%E8%81%B7%E9%98%B2%E6%AD%A2_%E6%B4%BB%E5%8B%95%E5%A0%B1%E5%91%8A%E6%9B%B8_%E7%A2%BA%E5%AE%9A%E7%89%88.pdf#page=50"
+    },
+    "fukaya": {
+      "label": {
+        "en": "Saitama Prefecture · Fukaya City, FY2022 activity report",
+        "ja": "埼玉県・深谷市のACP普及啓発教室、令和4年度実績"
+      },
+      "url": "https://www.pref.saitama.lg.jp/documents/238495/01siryou.pdf"
+    },
+    "workshop": {
+      "label": {
+        "en": "Living with Dementia Network · 2026 workshop report announcement",
+        "ja": "わたしらしく生きる認知症ネットワーク・2026年ワークショップ報告"
+      },
+      "url": "https://www.atpress.ne.jp/news/628200"
+    },
+    "union": {
+      "label": {
+        "en": "Nippon Care Craft Union · p. 2, Q4–Q5 (MHLW committee material)",
+        "ja": "日本介護クラフトユニオン・厚生労働省検討会提出資料 p.2、Q4・Q5"
+      },
+      "url": "https://www.mhlw.go.jp/content/12300000/001267011.pdf#page=2"
+    },
+    "tobetsu": {
+      "label": {
+        "en": "FY2025 health promotion project · Silver Human Resources Center cases, p. 1",
+        "ja": "令和7年度老人保健健康増進等事業・シルバー人材センター事例集 p.1"
+      },
+      "url": "https://www.mhlw.go.jp/content/12300000/001698865.pdf#page=2"
+    },
+    "facilities": {
+      "label": {
+        "en": "You and Miura (2024) · work-related activities in care facilities",
+        "ja": "尤琨琦・三浦研（2024）「介護施設における要介護高齢者の就労的活動の実態と課題」"
+      },
+      "url": "https://www.jstage.jst.go.jp/article/aija/89/820/89_1009/_article/-char/ja/"
+    },
+    "E01": {
+      "label": {
+        "en": "Home-care practitioner",
+        "ja": "在宅介護の実務者"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E02": {
+      "label": {
+        "en": "Care productivity support professional · Oita",
+        "ja": "介護生産性向上支援の専門職・大分"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E03": {
+      "label": {
+        "en": "Care productivity support professional · Osaka",
+        "ja": "介護生産性向上支援の専門職・大阪"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E04": {
+      "label": {
+        "en": "Municipal professional · individual contribution",
+        "ja": "自治体の専門職・個人としての協力"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E05": {
+      "label": {
+        "en": "Nature-program operator · Shinano",
+        "ja": "自然体験プログラムの運営者・信濃町"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E06": {
+      "label": {
+        "en": "Care productivity support professional · Yamagata",
+        "ja": "介護生産性向上支援の専門職・山形"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E07": {
+      "label": {
+        "en": "Sibling / young-carer peer-support organizers",
+        "ja": "きょうだい・ヤングケアラーの当事者支援者"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E08": {
+      "label": {
+        "en": "Family consultation / care-support practitioner · Yamanashi",
+        "ja": "家族相談・介護支援の実務者・山梨"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E09": {
+      "label": {
+        "en": "Dementia family-support organizer · Ibaraki",
+        "ja": "認知症の家族支援団体の運営者・茨城"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    },
+    "E10": {
+      "label": {
+        "en": "Young-carer consultation practitioner · Hokkaido",
+        "ja": "ヤングケアラー相談支援の実務者・北海道"
+      },
+      "url": "imported-dashboard/index.html#findings"
+    }
+  },
+  "referenceCatalog": [
+    {
+      "id": "C01",
+      "title": {
+        "en": "Public LTC insurance: system overview",
+        "ja": "公的介護保険：制度の概要"
+      },
+      "org": {
+        "en": "MHLW",
+        "ja": "厚生労働省"
+      },
+      "version": {
+        "en": "July 2025 · structure, not current population counts",
+        "ja": "2025年7月版・制度構造を参照。掲載人数は現在値として使用しない"
+      },
+      "url": "https://www.mhlw.go.jp/content/001512842.pdf"
+    },
+    {
+      "id": "C02",
+      "title": {
+        "en": "FY2026 care insurance guide",
+        "ja": "2026年度 介護保険ガイド"
+      },
+      "org": {
+        "en": "Gunma Prefecture",
+        "ja": "群馬県"
+      },
+      "version": {
+        "en": "FY2026 · care routes, plan fees, service costs",
+        "ja": "2026年度版・利用経路、ケアプラン、費用"
+      },
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/713488.pdf"
+    },
+    {
+      "id": "C03",
+      "title": {
+        "en": "Preventive-care support by designated agencies",
+        "ja": "指定居宅介護支援事業者による介護予防支援"
+      },
+      "org": {
+        "en": "Osaka City",
+        "ja": "大阪市"
+      },
+      "version": {
+        "en": "Updated Sep 18, 2026 · reform effective Apr 2024",
+        "ja": "2026年9月18日更新・2024年4月施行の制度"
+      },
+      "url": "https://www.city.osaka.lg.jp/fukushi/page/0000622459.html"
+    },
+    {
+      "id": "C04",
+      "title": {
+        "en": "User copay and exceptions",
+        "ja": "介護保険の利用者負担と例外"
+      },
+      "org": {
+        "en": "Kawanishi City",
+        "ja": "川西市"
+      },
+      "version": {
+        "en": "Updated Aug 1, 2026",
+        "ja": "2026年8月1日更新"
+      },
+      "url": "https://www.city.kawanishi.hyogo.jp/kurashi/fukushi_kaigo/1017467/kaigohoken/kaigohokenausabisu2.html"
+    },
+    {
+      "id": "C05",
+      "title": {
+        "en": "Consultation for family carers",
+        "ja": "家族介護の相談先"
+      },
+      "org": {
+        "en": "MHLW",
+        "ja": "厚生労働省"
+      },
+      "version": {
+        "en": "Live official page · revision date not displayed",
+        "ja": "公式掲載ページ・改訂日表示なし"
+      },
+      "url": "https://chukonen-katsuyaku.mhlw.go.jp/family-care/"
+    },
+    {
+      "id": "C06",
+      "title": {
+        "en": "Provider productivity support centers",
+        "ja": "介護生産性向上総合相談センター"
+      },
+      "org": {
+        "en": "MHLW",
+        "ja": "厚生労働省"
+      },
+      "version": {
+        "en": "Live official directory · provider-facing",
+        "ja": "公式窓口一覧・事業者向け"
+      },
+      "url": "https://www.mhlw.go.jp/kaigoseisansei/pf/soudan/info.html"
+    },
+    {
+      "id": "C07",
+      "title": {
+        "en": "Employer work–care support duties",
+        "ja": "勤務先による仕事と介護の両立支援"
+      },
+      "org": {
+        "en": "MHLW",
+        "ja": "厚生労働省"
+      },
+      "version": {
+        "en": "Care-related amendments effective Apr 1, 2025",
+        "ja": "介護関連の改正：2025年4月1日施行"
+      },
+      "url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyoukintou/ryouritsu/kaigo/law-amendment/"
+    },
+    {
+      "id": "C08",
+      "title": {
+        "en": "Enacted care-system reform: future implementation",
+        "ja": "成立済み制度改正・今後の施行"
+      },
+      "org": {
+        "en": "MHLW",
+        "ja": "厚生労働省"
+      },
+      "version": {
+        "en": "Jul 29, 2026 · future care-home categories, not current universal fees",
+        "ja": "2026年7月29日・将来の施設向け区分。現在の一律負担として扱わない"
+      },
+      "url": "https://www.mhlw.go.jp/content/12300000/001729451.pdf"
+    },
+    {
+      "id": "P01",
+      "title": {
+        "en": "SBI: product and displayed premium",
+        "ja": "SBI：商品・掲載保険料"
+      },
+      "org": {
+        "en": "SBI Ikiiki SSI",
+        "ja": "SBIいきいき少短"
+      },
+      "version": {
+        "en": "Live official page · rate-effective date not displayed",
+        "ja": "公式掲載ページ・料率の適用開始日表示なし"
+      },
+      "url": "https://www.i-sedai.com/care/kaigo/"
+    },
+    {
+      "id": "P02",
+      "title": {
+        "en": "SBI: contract overview and eligibility",
+        "ja": "SBI：契約概要・加入条件"
+      },
+      "org": {
+        "en": "SBI Ikiiki SSI",
+        "ja": "SBIいきいき少短"
+      },
+      "version": {
+        "en": "September 2025 edition",
+        "ja": "2025年9月版"
+      },
+      "url": "https://www.i-sedai.com/pdf/provision/care_kaigo_kotogara.pdf"
+    },
+    {
+      "id": "P03",
+      "title": {
+        "en": "SBI: policyholder and benefit recipient",
+        "ja": "SBI：契約者・受取人の約款"
+      },
+      "org": {
+        "en": "SBI Ikiiki SSI",
+        "ja": "SBIいきいき少短"
+      },
+      "version": {
+        "en": "September 2025 · printed pp.2, 21",
+        "ja": "2025年9月版・冊子2、21頁"
+      },
+      "url": "https://www.i-sedai.com/pdf/provision/care_kaigo_yakkan_shiori.pdf"
+    },
+    {
+      "id": "P04",
+      "title": {
+        "en": "SBI: child may insure a parent",
+        "ja": "SBI：子が親の契約を行う公式FAQ"
+      },
+      "org": {
+        "en": "SBI Ikiiki SSI",
+        "ja": "SBIいきいき少短"
+      },
+      "version": {
+        "en": "Official FAQ · revision date not displayed",
+        "ja": "公式FAQ・改訂日表示なし"
+      },
+      "url": "https://faq.i-sedai.com/親の介護保険を子どもが契約することはできますか？-6912ab2d5f694612db02e0d8"
+    },
+    {
+      "id": "P05",
+      "title": {
+        "en": "Aflac: current product information",
+        "ja": "アフラック：公式商品情報"
+      },
+      "org": {
+        "en": "Aflac",
+        "ja": "アフラック"
+      },
+      "version": {
+        "en": "Coverage information as of June 2026",
+        "ja": "保障情報は2026年6月現在"
+      },
+      "url": "https://www.aflac.co.jp/kaigo/"
+    },
+    {
+      "id": "P06",
+      "title": {
+        "en": "Aflac: contract overview",
+        "ja": "アフラック：契約概要"
+      },
+      "org": {
+        "en": "Aflac",
+        "ja": "アフラック"
+      },
+      "version": {
+        "en": "September 2025 edition",
+        "ja": "2025年9月版"
+      },
+      "url": "https://www.aflac.co.jp/static/keiyakugaiyou/pdf/r_kaigo_78589200.pdf"
+    },
+    {
+      "id": "P07",
+      "title": {
+        "en": "Aflac: policy wording",
+        "ja": "アフラック：ご契約のしおり・約款"
+      },
+      "org": {
+        "en": "Aflac",
+        "ja": "アフラック"
+      },
+      "version": {
+        "en": "Officially linked wording for contracts from Feb 21, 2025",
+        "ja": "2025年2月21日以降の契約用として公式掲載"
+      },
+      "url": "https://www.aflac.co.jp/static/yakkan/pdf/r_kaigo_78574900.pdf"
+    },
+    {
+      "id": "P08",
+      "title": {
+        "en": "Aflac: dated plan and premium example",
+        "ja": "アフラック：日付のあるプラン・保険料例"
+      },
+      "org": {
+        "en": "Aflac bank distribution",
+        "ja": "アフラック・銀行窓販用"
+      },
+      "version": {
+        "en": "November 2025 edition · rates Nov 4, 2025; not a verified 2026 quote",
+        "ja": "2025年11月版・料率2025年11月4日。2026年の確定見積りではない"
+      },
+      "url": "https://www.bank.aflac.co.jp/static/bank/r_kaigo/PDF/bank_r_kaigo_pamph_2511_t.pdf"
+    },
+    {
+      "id": "P09",
+      "title": {
+        "en": "Sompo: launch and original coverage structure",
+        "ja": "損保ジャパン：販売開始時の商品構造"
+      },
+      "org": {
+        "en": "Sompo Japan",
+        "ja": "損保ジャパン"
+      },
+      "version": {
+        "en": "May 14, 2018 release · historical; no current price taken",
+        "ja": "2018年5月14日発表・旧料金は採用しない"
+      },
+      "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2018/20180514_1.pdf?la=ja-JP"
+    },
+    {
+      "id": "P10",
+      "title": {
+        "en": "Sompo: group structure and payment trigger",
+        "ja": "損保ジャパン：団体構造・給付条件"
+      },
+      "org": {
+        "en": "Sompo Japan",
+        "ja": "損保ジャパン"
+      },
+      "version": {
+        "en": "Sep 2, 2021 release · digital distribution announcement",
+        "ja": "2021年9月2日発表・デジタル販売の案内"
+      },
+      "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2021/20210902_1.pdf?la=ja-JP"
+    },
+    {
+      "id": "P11",
+      "title": {
+        "en": "Sompo: FY2026 Nissan group example",
+        "ja": "親子のちから：2026年度日産団体の例"
+      },
+      "org": {
+        "en": "T&N Insurance Service",
+        "ja": "T&N保険サービス"
+      },
+      "version": {
+        "en": "Jul 1, 2026–one year · brochure p.18; group-specific",
+        "ja": "2026年7月1日から1年・冊子18頁・当該団体限定"
+      },
+      "url": "https://www.tnis.co.jp/cmn/book/family_pamphlet/pageindices/index19.html"
+    },
+    {
+      "id": "P12",
+      "title": {
+        "en": "Sompo: FY2026 group contract conditions",
+        "ja": "親子のちから：2026年度団体の重要事項"
+      },
+      "org": {
+        "en": "T&N Insurance Service",
+        "ja": "T&N保険サービス"
+      },
+      "version": {
+        "en": "FY2026 · printed pp.17, 32–33; group-specific",
+        "ja": "2026年度・冊子17、32〜33頁・当該団体の条件"
+      },
+      "url": "https://www.tnis.co.jp/cmn/pdf/family_jusetsu.pdf"
+    },
+    {
+      "id": "A01",
+      "title": {
+        "en": "Care concierge: Tsukui",
+        "ja": "介護コンシェルジュ：ツクイ"
+      },
+      "org": {
+        "en": "Tsukui",
+        "ja": "ツクイ"
+      },
+      "version": {
+        "en": "Service scope checked; no current price quoted",
+        "ja": "提供範囲を確認・現行料金は掲載しない"
+      },
+      "url": "https://www.tsukui.net/support/home-care/own-expense/yorisoi/"
+    },
+    {
+      "id": "A02",
+      "title": {
+        "en": "Care coordination: Omohibito",
+        "ja": "相談・実務支援：想ひ人"
+      },
+      "org": {
+        "en": "Omohibito",
+        "ja": "想ひ人"
+      },
+      "version": {
+        "en": "Service scope checked; no outcome claim adopted",
+        "ja": "提供範囲を確認・効果の実証とは扱わない"
+      },
+      "url": "https://www.omohibito.com/services/personal"
+    },
+    {
+      "id": "A03",
+      "title": {
+        "en": "Non-covered home care: Ichirou",
+        "ja": "保険外訪問介護：イチロウ"
+      },
+      "org": {
+        "en": "Ichirou",
+        "ja": "イチロウ"
+      },
+      "version": {
+        "en": "Current service example; no universal availability assumed",
+        "ja": "提供例・すべての日時や地域での手配保証ではない"
+      },
+      "url": "https://ichirou.co.jp/"
+    },
+    {
+      "id": "N01",
+      "url": "https://www.tsukui.net/support/home-care/own-expense/yorisoi/",
+      "title": {
+        "en": "Yorisoi Concierge: official service description",
+        "ja": "よりそいコンシェル・公式サービス案内"
+      },
+      "org": {
+        "en": "Tsukui",
+        "ja": "ツクイ"
+      },
+      "version": {
+        "en": "Checked Oct 26, 2026. AI guidance and human consultation; scope and availability must be confirmed. No tariff comparison here.",
+        "ja": "2026年10月26日確認。AI案内・人への相談等。対象範囲と利用可否は要確認。本資料で料金順位は付けない。"
+      }
+    },
+    {
+      "id": "N02",
+      "url": "https://www.omohibito.com/services/corporate",
+      "title": {
+        "en": "Care Concierge: official corporate-service description",
+        "ja": "介護おまかせコンシェルジュ・法人向け公式案内"
+      },
+      "org": {
+        "en": "Omohibito",
+        "ja": "想ひ人"
+      },
+      "version": {
+        "en": "Checked Oct 26, 2026. Advertises practical assistance as well as consultation. Corporate terms are not an individual quote.",
+        "ja": "2026年10月26日確認。相談に加え実務支援を掲げる。法人向け条件を個人への見積りと扱わない。"
+      }
+    },
+    {
+      "id": "N03",
+      "url": "https://www.omohibito.com/",
+      "title": {
+        "en": "Official Care Guide / service overview",
+        "ja": "公式ケアガイド・サービス概要"
+      },
+      "org": {
+        "en": "Omohibito",
+        "ja": "想ひ人"
+      },
+      "version": {
+        "en": "Checked Oct 26, 2026. Advertises a free AI Care Guide; outcomes are not independently established by that description.",
+        "ja": "2026年10月26日確認。無料AIケアガイドを掲げる。掲載内容だけで効果が独立に実証されたとは扱わない。"
+      }
+    },
+    {
+      "id": "D01",
+      "url": "https://faq.i-sedai.com/介護保険の申込条件-674020b1d156a19a65f20fee",
+      "title": {
+        "en": "Care insurance application conditions · official FAQ",
+        "ja": "介護保険の申込条件・公式FAQ"
+      },
+      "org": {
+        "en": "SBI Ikiki Small-amount & Short-term Insurance",
+        "ja": "SBIいきいき少額短期保険"
+      },
+      "version": {
+        "en": "Channel checked Oct 27, 2026: online and postal applications. Telephone materials requests are not proof of telephone contracting.",
+        "ja": "販売経路を2026年10月27日確認。Web・郵送申込。電話の資料請求を電話契約と同一視しない。"
+      }
+    },
+    {
+      "id": "D02",
+      "url": "https://www.aflac.co.jp/flow/",
+      "title": {
+        "en": "Application and consultation flow · product-specific note",
+        "ja": "申込み・相談の流れ・商品別の注意書き"
+      },
+      "org": {
+        "en": "Aflac",
+        "ja": "アフラック"
+      },
+      "version": {
+        "en": "Channel checked Oct 27, 2026: agency application and an interview for Shikkari Tayoreru Care Insurance. A web request is not a completed online contract. Interview format should be confirmed.",
+        "ja": "販売経路を2026年10月27日確認。「しっかり頼れる介護保険」は代理店で面談を伴う申込み。Web請求をオンライン契約完結としない。面談形式は要確認。"
+      }
+    },
+    {
+      "id": "D03",
+      "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/company/disclosure/2025/sj_disc2025_04.pdf?la=ja-JP",
+      "title": {
+        "en": "2025 disclosure · Oyako no Chikara through companies/groups",
+        "ja": "2025年ディスクロージャー誌・企業／団体等を通じた親子のちから"
+      },
+      "org": {
+        "en": "Sompo Japan",
+        "ja": "損保ジャパン"
+      },
+      "version": {
+        "en": "Official 2025 document, p.105; reviewed Oct 27, 2026. Employer/group route confirmed; exclusivity and each group’s current enrollment process are not established.",
+        "ja": "公式2025年資料105頁を2026年10月27日確認。企業・団体経由を確認。これが唯一の経路か、各団体の現在の申込手続きは未確認。"
+      }
+    }
+  ],
+  "fieldwork": [
+    {
+      "id": "past-session2",
+      "date": "2026-09-27",
+      "name": {
+        "en": "Session 2 with Jeff",
+        "ja": "Jeff教授とのSession 2"
+      },
+      "focus": {
+        "en": "Confirmed a problem-first approach; two Issue Trees requested as the next assignment.",
+        "ja": "課題を起点とする研究方針を確認。次の課題として2本のIssue Treeを求められた。"
+      },
+      "state": "completed",
+      "category": "school"
+    },
+    {
+      "id": "past-discussion",
+      "date": "2026-09-30",
+      "name": {
+        "en": "Former seminar student",
+        "ja": "元ゼミ生"
+      },
+      "focus": {
+        "en": "Previous care-related seminar project, fieldwork lessons, regional differences, and challenges in communicating existing support.",
+        "ja": "過去の介護関連ゼミ研究、フィールドワークの学び、地域差、既存の支援を伝える難しさについて対話。"
+      },
+      "state": "exploratory",
+      "category": "discussion"
+    }
+  ]
+}

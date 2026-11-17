@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-14",
+  "provenance": {
+    "legacyFile": "imported-dashboard/index.html",
+    "originalSourcesRechecked": false
+  },
+  "topic": {
+    "id": "visits",
+    "title": {
+      "en": "Medical appointment accompaniment",
+      "ja": "通院付き添い"
+    },
+    "scene": {
+      "en": "When an older parent or relative needs help getting to a medical appointment, a working family caregiver may have to change work plans or find a replacement if the usual help is unavailable.",
+      "ja": "親などの通院に付き添いが必要なとき、働く家族は仕事を調整したり、普段の頼み先が使えなければ代わりを探したりする。"
+    }
+  },
+  "rows": [
+    {
+      "id": "micin",
+      "topic": "visits",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "micin"
+      ],
+      "problem": {
+        "en": "Transport or accompaniment can affect a working caregiver’s job.",
+        "ja": "通院の送迎・付き添いが、家族の仕事に影響することがある。"
+      },
+      "result": {
+        "en": "300 of 500 people (60.0%) provided transport or accompanied someone. Among those 300, 238 people (79.3%) reported a burden or effect on their work.",
+        "ja": "500人中300人（60.0％）が送迎・付き添いを実施。その300人のうち238人（79.3％）が仕事への負担・影響を回答。"
+      },
+      "scope": {
+        "en": "MICIN online survey, May 31–June 3, 2024. 500 employed people aged 15 or older caring for a parent or other older ascendant. The work-impact question used the 300 who did this task.",
+        "ja": "MICINのインターネット調査、2024年5月31日〜6月3日。親などの尊属を介護する15歳以上の有職者500人。仕事への影響の設問は実施者300人が分母。"
+      },
+      "limit": {
+        "en": "The survey measured reported work impact. It did not separate urgent and booked visits or measure failed arrangements.",
+        "ja": "回答者が感じた仕事への影響。急な受診と予約済み通院の内訳、手配できなかった割合は測っていない。"
+      }
+    },
+    {
+      "id": "kitami",
+      "topic": "visits",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "kitami",
+        "kitamiReasons"
+      ],
+      "problem": {
+        "en": "Home-visit care can be needed for an appointment without a provider being available to arrange it.",
+        "ja": "通院に訪問介護が必要でも、事業所と調整がつかない場合がある。"
+      },
+      "result": {
+        "en": "67 cases of unsuccessful coordination were reported in December 2020; in 43 of those cases, a care manager accompanied the person.",
+        "ja": "2020年12月の1か月に67件の調整不成立。そのうち43件でケアマネジャーが受診に同行した。"
+      },
+      "scope": {
+        "en": "Kitami survey, Jan. 20–Feb. 9, 2021, covering December 2020. Care managers and related staff replied by provider: 60 of 68 providers responded.",
+        "ja": "北見市のケアマネジャー等への調査。2021年1月20日〜2月9日に、2020年12月分を質問。68事業所中60事業所が回答。"
+      },
+      "limit": {
+        "en": "67 is a case count; 60 is a count of responding providers. The total number of appointments requiring home-visit care is unknown, so no failure rate can be calculated.",
+        "ja": "67はケース数、60は回答事業所数。訪問介護が必要だった通院の総数が不明なため、不成立率には換算できない。"
+      },
+      "partial": {
+        "result": {
+          "en": "Supply constraints may play a role. A shortage of care aides was cited most often; uncertainty about appointment duration and a lack of transport vehicles were also reported.",
+          "ja": "供給側の制約が関わる可能性がある。ヘルパー不足が最も多く挙がり、受診時間の不確実さや送迎車の不足も報告された。"
+        },
+        "limit": {
+          "en": "Which constraint matters most in other places or for a specific request still needs testing.",
+          "ja": "何が主因かは、地域や依頼条件ごとに検証が必要。"
+        }
+      }
+    },
+    {
+      "id": "mri",
+      "topic": "visits",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "mri174",
+        "mri176"
+      ],
+      "problem": {
+        "en": "A care manager may accompany someone when a sudden illness leaves too little time to arrange a service.",
+        "ja": "急な体調不良でサービス調整が間に合わず、ケアマネジャーが受診に同行する場合がある。"
+      },
+      "result": {
+        "en": "830 of 2,074 care managers (40.0%) selected this reason for accompanying someone. Among those 830, 371 care managers (44.7%) selected the family as a requester.",
+        "ja": "同行の理由として2,074人中830人（40.0％）がこの状況を選択。その830人のうち371人（44.7％）が、依頼元に家族を選択した。"
+      },
+      "scope": {
+        "en": "FY2019 survey of in-home care support offices, reported in 2020. Both questions allowed care managers to choose multiple answers.",
+        "ja": "2019年度の居宅介護支援事業所調査。報告書は2020年。いずれもケアマネジャーの複数回答。"
+      },
+      "limit": {
+        "en": "The denominator is care managers answering a question, not visits or families. This does not measure how often families failed to find a helper.",
+        "ja": "分母は回答したケアマネジャー。受診件数や家族の手配不成立率には換算できない。"
+      }
+    },
+    {
+      "id": "booked",
+      "topic": "visits",
+      "status": "confirmed",
+      "kind": "case",
+      "sources": [
+        "booked"
+      ],
+      "problem": {
+        "en": "A regular care provider may have no helper available on the date of a booked appointment.",
+        "ja": "予約済みの通院でも、普段の事業所で希望日に人を確保できないことがある。"
+      },
+      "result": {
+        "en": "The family was unavailable, and its usual provider could not arrange a helper for the booked day. Another private service provided taxi boarding assistance and in-clinic accompaniment.",
+        "ja": "家族の都合がつかず、普段の事業所にも希望日に対応できるヘルパーがいなかった。別の自費サービスで、タクシーの乗降介助と院内付き添いを確保した。"
+      },
+      "scope": {
+        "en": "First-person account published in 2023, from one reporter supporting a mother in her 90s.",
+        "ja": "90代の母を支える記者1人の実録。2023年公刊。"
+      },
+      "limit": {
+        "en": "One booked visit and one unavailable provider. The family obtained alternative support. The account gives no frequency or impact on work.",
+        "ja": "普段の頼み先では成立しなかったが、既存の代替サービスで対応できた1事例。発生頻度はわからず、仕事への影響は記事に記載なし。"
+      },
+      "followUp": {
+        "checkedOn": "2026-11-17",
+        "account": {
+          "ja": "最初はケアマネに相談したが、普段の介護事業所では希望日に合うヘルパーが見つからなかった。家族がクラウドケアにスポット依頼し、約2時間後に担当決定の連絡を受けた。乗降介助・院内同行・買い物を含む3時間の支援を確保。家族は日時・母の状態や既往歴・担当者の希望を入力し、担当ヘルパーとメッセージで連絡、当初のみ見守った。最初の依頼先での不成立と、代替先での手配成立を区別する。これは1事例で、最終的な手配不成立率、家族の作業時間は不明。",
+          "en": "The family first consulted the care manager, but the usual provider had no helper for the requested date. The family placed a spot request with CrowdCare and received an assignment notification about two hours later. Three hours of boarding assistance, in-clinic accompaniment and shopping were provided. The family entered timing, the mother’s condition and medical history and helper preferences, exchanged messages with the helper and observed the initial meeting. Initial-provider failure and successful alternative arrangement are distinct. This single case establishes neither a final failure rate nor family task time."
+        }
+      }
+    },
+    {
+      "id": "hasuda",
+      "topic": "visits",
+      "status": "partial",
+      "kind": "survey",
+      "sources": [
+        "hasudaVisits",
+        "hasudaClinic"
+      ],
+      "problem": {
+        "en": "A provider may not provide the requested appointment or in-clinic support.",
+        "ja": "支援を依頼しても、その依頼先が対応しない場合がある。"
+      },
+      "result": {
+        "en": "For FY2024 requests, 1 of 11 providers asked for outpatient support and 1 of 12 asked for in-clinic support reported they did not provide it.",
+        "ja": "2024年度に通院支援を依頼された11事業所中1事業所、院内支援を依頼された12事業所中1事業所が「対応しなかった」と回答。"
+      },
+      "scope": {
+        "en": "Hasuda City’s 2025 survey; 20 of 20 local in-home care support offices responded. The question bases are the providers receiving each type of request.",
+        "ja": "蓮田市の2025年調査。市内居宅介護支援20事業所すべてが回答。設問ごとの分母は、それぞれの支援を依頼された事業所。"
+      },
+      "limit": {
+        "en": "This records provider-level responses. It does not tell us whether a household found help for the requested date or used an alternative.",
+        "ja": "事業所単位の回答。家族が希望日に手配できたか、代替手段を使ったかは不明。"
+      }
+    }
+  ],
+  "sources": {
+    "micin": {
+      "label": {
+        "en": "MICIN · 2024 survey results, Q1–Q2",
+        "ja": "MICIN「介護に関する意識調査」Q1・Q2の結果"
+      },
+      "url": "https://prtimes.jp/main/html/rd/p/000000125.000017806.html"
+    },
+    "kitami": {
+      "label": {
+        "en": "Kitami Medical and Care Coordination Support Center · overview and p. 12",
+        "ja": "北見市医療・介護連携支援センター・調査概要、p.12"
+      },
+      "url": "https://www.nouge.gr.jp/center/info/20210226_servey_report.pdf#page=12"
+    },
+    "kitamiReasons": {
+      "label": {
+        "en": "Kitami · reasons, p. 13",
+        "ja": "北見市・調整がつかなかった理由、p.13"
+      },
+      "url": "https://www.nouge.gr.jp/center/info/20210226_servey_report.pdf#page=13"
+    },
+    "mri174": {
+      "label": {
+        "en": "Mitsubishi Research Institute · p. 93, Fig. 174",
+        "ja": "三菱総合研究所・p.93、図表174"
+      },
+      "url": "https://pubpjt.mri.co.jp/pjt_related/roujinhoken/jql43u00000000s3-att/R1_053_2_report.pdf#page=101"
+    },
+    "mri176": {
+      "label": {
+        "en": "Mitsubishi Research Institute · p. 94, Fig. 176",
+        "ja": "三菱総合研究所・p.94、図表176"
+      },
+      "url": "https://pubpjt.mri.co.jp/pjt_related/roujinhoken/jql43u00000000s3-att/R1_053_2_report.pdf#page=102"
+    },
+    "booked": {
+      "label": {
+        "en": "Kaigo Post Seven · first-person report, 2023",
+        "ja": "介護ポストセブン「母親の通院に付き添える人がいない！」"
+      },
+      "url": "https://kaigo-postseven.com/124470"
+    },
+    "hasudaVisits": {
+      "label": {
+        "en": "Hasuda City · outpatient support, PDF p. 5",
+        "ja": "蓮田市・通院支援、PDF p.5"
+      },
+      "url": "https://www.city.hasuda.saitama.jp/hokatsu/kenko/koresha/zaitaku/iryoukaigorenkei/documents/r7-2_shiryou1-1.pdf#page=5"
+    },
+    "hasudaClinic": {
+      "label": {
+        "en": "Hasuda City · in-clinic support, PDF p. 8",
+        "ja": "蓮田市・院内支援、PDF p.8"
+      },
+      "url": "https://www.city.hasuda.saitama.jp/hokatsu/kenko/koresha/zaitaku/iryoukaigorenkei/documents/r7-2_shiryou1-1.pdf#page=8"
+    }
+  },
+  "candidates": [
+    {
+      "id": "visit-support",
+      "topic": "visits",
+      "title": {
+        "en": "Appointment accompaniment coordination",
+        "ja": "通院付き添いの手配支援"
+      },
+      "nodes": [
+        "NS1",
+        "NS3",
+        "NS4"
+      ],
+      "link": [
+        "next-step-tree",
+        {
+          "en": "Next Step for Care hypothesis",
+          "ja": "「介護の次の一手」の仮説"
+        }
+      ],
+      "focus": {
+        "en": "A working adult child has a parent’s booked weekday appointment that conflicts with work, and the usual source of help is unavailable.",
+        "ja": "平日の予約済み通院が勤務と重なり、普段の頼み先が使えない働く子。"
+      },
+      "questions": [
+        {
+          "en": "Among occasions when a working child wanted to delegate accompaniment, how often was help unavailable for the requested date? Separate urgent and booked visits.",
+          "ja": "付き添いを任せたい場面のうち、希望日に手配できなかった頻度は。急な受診と予約済み通院はどう異なるか。"
+        },
+        {
+          "en": "Which requests could household help or existing providers not cover? Would a new service reduce coordination time, absences or early departures from work?",
+          "ja": "家族や既存事業者で埋まらない条件は何か。新しい支援で調整時間、欠勤、早退が減るか。"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "planned",
+      "title": {
+        "ja": "予定された通院",
+        "en": "Scheduled appointments"
+      },
+      "evidenceIds": [
+        "booked"
+      ],
+      "unknown": {
+        "ja": "希望日の手配不成立の頻度と仕事への影響。既存の代替サービスで解決できる範囲。",
+        "en": "How often help is unavailable on the requested day, its work impact, and when existing alternatives suffice."
+      },
+      "next": {
+        "ja": "直近の予約通院について、希望日・依頼先・代替手段・手配結果・勤務調整を聞く。",
+        "en": "Reconstruct a recent booked visit: requested date, providers contacted, alternatives, arrangement outcome and work changes."
+      }
+    },
+    {
+      "id": "urgent",
+      "title": {
+        "ja": "急な受診",
+        "en": "Urgent visits"
+      },
+      "evidenceIds": [
+        "mri"
+      ],
+      "unknown": {
+        "ja": "急な受診件数を分母とした手配不成立率。家族の実際の負担。",
+        "en": "The failed-arrangement rate per urgent visit and the actual burden on families."
+      },
+      "next": {
+        "ja": "急な受診を予約済み通院と分け、依頼から受診までの時間、既存支援の対応、家族の行動を記録する。",
+        "en": "Separate urgent from booked visits; record lead time, existing support responses and family actions."
+      }
+    },
+    {
+      "id": "unspecified",
+      "title": {
+        "ja": "通院付き添い全般・日時の区別なし",
+        "en": "Accompaniment overall · timing unspecified"
+      },
+      "evidenceIds": [
+        "micin",
+        "kitami",
+        "hasuda"
+      ],
+      "unknown": {
+        "ja": "急な受診と予約済み通院の内訳。家族単位の最終的な手配成否と、新サービスによる正味負担の変化。",
+        "en": "The urgent/booked breakdown, final arrangement outcomes per household, and net burden changes from a new service."
+      },
+      "next": {
+        "ja": "通院の種類・希望日時・依頼条件・分母の単位を分けて記録する。既存支援で十分だった例も含める。",
+        "en": "Record visit type, requested date, request conditions and denominator units separately, including cases where existing support sufficed."
+      }
+    }
+  ]
+}
