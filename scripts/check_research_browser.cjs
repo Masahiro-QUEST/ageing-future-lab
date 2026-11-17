@@ -131,6 +131,11 @@ const server = http.createServer((req,res)=>{
           }
           assert.equal(await page.locator('[data-provision="pilot"]').count(),0);
           assert.equal(await page.locator('#remaining-work dl > div').count(),7);
+          if(c.id==='implementation'){
+            assert.equal(await page.locator('[data-provider="productivity-center"] [data-provision="unresearched"]').count(),1);
+            assert((await page.locator('[data-provider="productivity-center"] .provision-state').innerText()).includes(language==='ja'?'未記録':'Unrecorded'));
+            await page.locator('#means').screenshot({path:path.join(screenshots,`implementation-options-${language}-${viewport.width}.png`)});
+          }
           await page.locator(`#assessment-${c.id} summary`).click();
           await page.locator('#language').click();
           assert.equal(await button.getAttribute('aria-expanded'),'true');
@@ -154,7 +159,9 @@ const server = http.createServer((req,res)=>{
           const row=page.locator(`[data-provider="${p.id}"]`);
           assert((await row.innerText()).includes(p.priceExample[language]));
           assert((await row.innerText()).includes(p.coordination[language]));
+          await row.locator('.fee-breakdown summary').click();
           assert((await row.innerText()).includes(p.price[language]));
+          await row.locator('.fee-breakdown summary').click();
           for(const l of p.links)assert.equal(await page.locator(`.service-source-record a[href="${l.url}"]`).count(),1);
         }
         assert((await page.locator('[data-provider="odekake"]').innerText()).includes('17,800'));
