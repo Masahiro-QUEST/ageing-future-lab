@@ -1,0 +1,74 @@
+{
+  "provenance": {
+    "originalSourcesRechecked": false,
+    "legacyFile": "imported-dashboard/index.html"
+  },
+  "rows": [
+    {
+      "id": "works",
+      "topic": "precare",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "works"
+      ],
+      "problem": {
+        "en": "Some families do not know how a relative would prefer to live if care becomes necessary.",
+        "ja": "介護前に、本人が望む暮らしを把握していない家族がいる。"
+      },
+      "result": {
+        "en": "16.2% of 4,233 respondents said they already knew, or had asked, how their relative wanted to spend their time if they needed care.",
+        "ja": "4,233人のうち16.2％が、介護が必要になった場合に家族・親族がどう過ごしたいかを、介護開始前に知っていた、または本人に聞いたと回答。"
+      },
+      "scope": {
+        "en": "2020 online panel survey of 4,233 people aged 45–64 who had cared for someone aged 65 or above and were regular employees when care first arose. The question covers family and relatives.",
+        "ja": "2020年のインターネットモニター調査。65歳以上を介護した経験があり、初回の介護発生時に正社員だった45〜64歳の男女4,233人。設問は家族・親族が対象。"
+      },
+      "limit": {
+        "en": "Knowing and asking are grouped together. This is not a parent–child conversation rate or evidence that talking improves later decisions.",
+        "ja": "「知っていた」と「聞いた」は同じ項目。親子の会話の実施率や、その後の判断への効果ではない。"
+      }
+    },
+    {
+      "id": "duskin",
+      "topic": "precare",
+      "status": "confirmed",
+      "kind": "survey",
+      "sources": [
+        "duskin"
+      ],
+      "problem": {
+        "en": "Some parents and adult children find advance family discussion of care difficult.",
+        "ja": "将来の介護を家族で事前に話し合うのが難しいと感じる人がいる。"
+      },
+      "result": {
+        "en": "66.6% of 1,000 adult children and 53.2% of 1,000 parents agreed or somewhat agreed that advance family discussion is difficult.",
+        "ja": "子世代1,000人の66.6％、親世代1,000人の53.2％が、難しいと「そう思う」または「ややそう思う」と回答。"
+      },
+      "scope": {
+        "en": "Duskin online survey, June 19–21, 2024. Each generation had relatives in the other generation living separately, with quotas of 500 people with and 500 without caregiving experience per generation.",
+        "ja": "ダスキンのインターネット調査、2024年6月19〜21日。親子が別居する各世代を調査し、世代ごとに介護経験あり・なし各500人を割り付けた。"
+      },
+      "limit": {
+        "en": "This is perceived difficulty. It does not measure whether people had a conversation or would use a course.",
+        "ja": "話し合いの難しさについての回答。会話の実施率や、講座への需要とは別の指標。"
+      }
+    }
+  ],
+  "sources": {
+    "works": {
+      "label": {
+        "en": "Recruit Works Institute · 2020 survey, Fig. 2",
+        "ja": "リクルートワークス研究所「仕事と介護の両立が始まる前に親と話し合う」図表2"
+      },
+      "url": "https://www.works-i.com/column/works05/detail011.html"
+    },
+    "duskin": {
+      "label": {
+        "en": "Duskin · 2024 family care report, survey overview and results",
+        "ja": "ダスキン「親子で向き合う介護レポート2024」調査概要・介護についての話し合い"
+      },
+      "url": "https://www.duskin.co.jp/news/2024/pdf/240828_01.pdf#page=5"
+    }
+  }
+}
